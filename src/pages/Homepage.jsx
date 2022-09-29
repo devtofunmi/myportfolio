@@ -15,24 +15,9 @@ import { HiMoon, HiLightBulb } from "react-icons/hi";
 import { BsLink45Deg } from "react-icons/bs";
 import { RiGithubLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import {
-  SiChakraui,
-  SiCss3,
-  SiFigma,
-  SiFontawesome,
-  SiGit,
-  SiHtml5,
-  SiJavascript,
-  SiNetlify,
-  SiNpm,
-  SiReact,
-  SiSass,
-  SiTwitter,
-  SiVisualstudio,
-  SiWhatsapp,
-  SiYarn,
-} from "react-icons/si";
+
 import theData from "../component/projectsData";
+import StackIcons from "../component/StackIcons";
 
 const Homepage = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -41,7 +26,7 @@ const Homepage = () => {
     <>
       <Box>
         <Button onClick={toggleColorMode}>
-          {colorMode === "light" ? <HiMoon /> : <HiLightBulb />}
+          {colorMode === "dark" ? <HiMoon /> : <HiLightBulb />}
         </Button>
       </Box>
       <Flex
@@ -68,53 +53,8 @@ const Homepage = () => {
           <Text fontSize={20} fontWeight={500}>
             Tools I use
           </Text>
-          <Flex gap={5} mt={5} flexWrap={"wrap"}>
-            <Text fontSize={"xl"}>
-              <SiReact />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiSass />
-            </Text>
-            <Text fontSize={"xl"}>
-              <TbBrandNextjs />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiJavascript />
-            </Text>
-
-            <Text fontSize={"xl"}>
-              <SiFigma />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiChakraui />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiGit />
-            </Text>
-            <Text fontSize={"xl"}>
-              <RiGithubLine />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiNetlify />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiVisualstudio />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiNpm />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiYarn />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiFontawesome />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiCss3 />
-            </Text>
-            <Text fontSize={"xl"}>
-              <SiHtml5 />
-            </Text>
+          <Flex gap={5} mt={5} flexWrap={"wrap"} fontSize="30px">
+            <StackIcons />
           </Flex>
         </Box>
         <Box mt={20}>
@@ -125,21 +65,28 @@ const Homepage = () => {
             <Accordion
               border="1px"
               bgGradient="linear(to-l, #b90de0, #3363a5)"
-              my={5}
+              my={10}
               defaultIndex={[0]}
               allowMultiple
+              borderRadius="5px"
+              data-aos="fade-up"
             >
               <AccordionItem>
                 <h2>
                   <AccordionButton>
-                    <Box flex="1" textAlign="left">
+                    <Box
+                      flex="1"
+                      textAlign="left"
+                      fontSize={20}
+                      fontWeight={600}
+                    >
                       {data.name}
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>{data.description}</AccordionPanel>
-                <Flex justifyContent="space-between">
+                <Flex ml="10px" mb={5} gap="5px">
                   <a href={data.link} target="blank">
                     <BsLink45Deg fontSize={20} />
                   </a>
