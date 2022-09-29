@@ -40,7 +40,7 @@ const Homepage = () => {
             Hi,I'm Tofunmi
           </Text>
         </Flex>
-        <Text mt={5} textColor="#3363a5">
+        <Text mt={5} textColor="#81AFDD">
           I'm a Frontend Developer
         </Text>
         <Text mt={5}>
@@ -49,7 +49,7 @@ const Homepage = () => {
           code.
         </Text>
         <Box mt={20}>
-          <Text fontSize={20} fontWeight={500}>
+          <Text fontSize={25} fontWeight={500}>
             Tools I use
           </Text>
           <Flex gap={5} mt={5} flexWrap={"wrap"} fontSize="30px">
@@ -57,7 +57,7 @@ const Homepage = () => {
           </Flex>
         </Box>
         <Box mt={20}>
-          <Text fontSize={20} fontWeight={500}>
+          <Text fontSize={25} fontWeight={500}>
             Projects I've built
           </Text>
           {theData.map((data) => (
@@ -87,18 +87,21 @@ const Homepage = () => {
                 <AccordionPanel pb={4}>{data.description}</AccordionPanel>
                 <Flex ml="10px" mb={5} gap="5px">
                   <a href={data.link} target="blank">
-                    <BsLink45Deg fontSize={20} />
+                    <BsLink45Deg fontSize={30} />
                   </a>
                   <a href={data.gitlink} target="blank">
-                    <RiGithubLine fontSize={20} />
+                    <RiGithubLine fontSize={30} />
                   </a>
+                  <Box fontSize={30}>{data.tools}</Box>
+                  <Box fontSize={30}>{data.tool}</Box>
+                  <Box fontSize={30}>{data.toolss}</Box>
                 </Flex>
               </AccordionItem>
             </Accordion>
           ))}
         </Box>
         <Box>
-          <Text fontSize={20} fontWeight={500}>
+          <Text fontSize={25} fontWeight={500}>
             Let's Connect
           </Text>
           <Box mt={5} mb={10}>
@@ -107,7 +110,7 @@ const Homepage = () => {
                 <Text> Twitter</Text>
               </a>
             </Flex>
-            <Text textColor="#3363a5">
+            <Text textColor="#81AFDD">
               I tweet about tech and my tech journey
             </Text>
 
@@ -116,7 +119,7 @@ const Homepage = () => {
                 Whatsapp
               </a>
             </Flex>
-            <Text textColor="#3363a5">Message me let's chat</Text>
+            <Text textColor="#81AFDD">Message me let's chat</Text>
           </Box>
         </Box>
       </Flex>

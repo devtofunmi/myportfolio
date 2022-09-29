@@ -1,3 +1,5 @@
+import { SiHtml5, SiReact, SiJavascript, SiCss3, SiSass } from "react-icons/si";
+
 const theData = [
   {
     logo: "",
@@ -5,6 +7,7 @@ const theData = [
     link: "https://cryppto.netlify.app",
     gitlink: "https://github.com/devtofunmi/crypto",
     description: "A live crytocurrency website",
+    tools: <SiReact />,
   },
 
   {
@@ -13,6 +16,7 @@ const theData = [
     link: "https://gppt.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "GPT3 landing page replica",
+    tools: <SiReact />,
   },
   {
     logo: "",
@@ -20,6 +24,7 @@ const theData = [
     link: "https://easybannk.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "Easy Bank Landing Page replica",
+    tools: <SiReact />,
   },
   {
     logo: "",
@@ -27,6 +32,7 @@ const theData = [
     link: "https://coiinsearch.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of a coiinsearch website i saw on youtube",
+    tools: <SiReact />,
   },
   {
     logo: "",
@@ -34,6 +40,9 @@ const theData = [
     link: "https://bnnnb.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of staybnb website",
+    tool: <SiJavascript />,
+    tools: <SiHtml5 />,
+    toolss: <SiCss3 />,
   },
   {
     logo: "",
@@ -41,6 +50,8 @@ const theData = [
     link: "https://hudd.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "Huddle landing page replica",
+    tools: <SiHtml5 />,
+    toolss: <SiCss3 />,
   },
   {
     logo: "",
@@ -48,6 +59,9 @@ const theData = [
     link: "https://flytoo.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of staybnb homepage",
+    tools: <SiHtml5 />,
+    toolss: <SiCss3 />,
+    tool: <SiSass />,
   },
 ];
 
