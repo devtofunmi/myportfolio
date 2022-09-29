@@ -135,7 +135,7 @@ const Homepage = () => {
                     <Box flex="1" textAlign="left">
                       {data.name}
                     </Box>
-                    <AccordionIcon></AccordionIcon>
+                    <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>{data.description}</AccordionPanel>
@@ -162,7 +162,7 @@ const Homepage = () => {
               </a>
             </Flex>
             <Text textColor="#3363a5">
-              i tweet about tech and my tech journey
+              I tweet about tech and my tech journey
             </Text>
 
             <Flex mt="10px" fontSize={20} alignItems="center">
@@ -170,7 +170,7 @@ const Homepage = () => {
                 Whatsapp
               </a>
             </Flex>
-            <Text textColor="#3363a5">message me let chat</Text>
+            <Text textColor="#3363a5">Message me let's chat</Text>
           </Box>
         </Box>
       </Flex>
