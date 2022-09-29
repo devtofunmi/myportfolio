@@ -118,7 +118,7 @@ const Homepage = () => {
         </Box>
         <Box mt={20}>
           <Text fontSize={20} fontWeight={500}>
-            My Projects
+            Projects I've built
           </Text>
           {theData.map((data) => (
             <Accordion
