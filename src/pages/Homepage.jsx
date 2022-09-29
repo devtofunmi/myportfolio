@@ -46,7 +46,7 @@ const Homepage = () => {
       <Flex
         align-items="center"
         justify-content="cener"
-        w={"90%"}
+        w={["90%", "50%"]}
         m="auto"
         flexDirection="column"
       >
