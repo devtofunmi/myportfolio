@@ -14,7 +14,6 @@ import React from "react";
 import { HiMoon, HiLightBulb } from "react-icons/hi";
 import { BsLink45Deg } from "react-icons/bs";
 import { RiGithubLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
 
 import theData from "../component/projectsData";
 import StackIcons from "../component/StackIcons";
