@@ -8,6 +8,7 @@ import {
   Text,
   useColorMode,
   AccordionPanel,
+  AccordionIcon,
 } from "@chakra-ui/react";
 import React from "react";
 import { HiMoon, HiLightBulb } from "react-icons/hi";
@@ -134,6 +135,7 @@ const Homepage = () => {
                     <Box flex="1" textAlign="left">
                       {data.name}
                     </Box>
+                    <AccordionIcon></AccordionIcon>
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>{data.description}</AccordionPanel>
