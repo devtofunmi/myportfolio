@@ -1,8 +1,6 @@
-import sg from "../assets/sg.svg";
-
 const theData = [
   {
-    logo: { sg },
+    logo: "",
     name: "Cryppto",
     link: "https://cryppto.netlify.app",
     gitlink: "https://github.com/devtofunmi/crypto",
