@@ -59,7 +59,7 @@ const Homepage = () => {
           I'm a Frontend Developer
         </Text>
         <Text mt={5}>
-          I'm a frontend developer,my expertise is in thr area of responsive
+          I'm a frontend developer,my expertise is in the area of responsive
           design,i strive to make the web a beautiful place with every line of
           code.
         </Text>
