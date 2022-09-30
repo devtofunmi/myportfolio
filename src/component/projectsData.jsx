@@ -14,7 +14,7 @@ const theData = [
     logo: "",
     name: "Gppt",
     link: "https://gppt.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
+    gitlink: "https://github.com/devtofunmi/gpt",
     description: "GPT3 landing page replica",
     tools: <SiReact />,
   },
