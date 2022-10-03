@@ -9,6 +9,8 @@ import {
   useColorMode,
   AccordionPanel,
   AccordionIcon,
+  Img,
+  Center,
 } from "@chakra-ui/react";
 import React from "react";
 import { HiMoon, HiLightBulb } from "react-icons/hi";
@@ -17,6 +19,7 @@ import { RiGithubLine } from "react-icons/ri";
 
 import theData from "../component/projectsData";
 import StackIcons from "../component/StackIcons";
+import c from "../assets/jj.jpg";
 
 const Homepage = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -48,6 +51,14 @@ const Homepage = () => {
           design,i strive to make the web a beautiful place with every line of
           code.
         </Text>
+        <Center
+          w={"300px"}
+          h={"300px"}
+          borderRadius={"120%"}
+          bgImage={c}
+          bgPosition={"top"}
+          mt={"50px"}
+        ></Center>
         <Box mt={20}>
           <Text fontSize={25} fontWeight={500}>
             Tools I use
