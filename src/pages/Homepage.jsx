@@ -12,7 +12,7 @@ import {
   Img,
   Center,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import { HiMoon, HiLightBulb } from "react-icons/hi";
 import { BsLink45Deg } from "react-icons/bs";
 import { RiGithubLine } from "react-icons/ri";
@@ -23,11 +23,17 @@ import c from "../assets/jj.jpg";
 
 const Homepage = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+  const [isDark, setIsDark] = useState(true);
 
   return (
     <>
       <Box>
-        <Button onClick={toggleColorMode}>
+        <Button
+          onClick={() => {
+            toggleColorMode();
+            setIsDark(!isDark);
+          }}
+        >
           {colorMode === "dark" ? <HiMoon /> : <HiLightBulb />}
         </Button>
       </Box>
