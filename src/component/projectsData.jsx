@@ -20,22 +20,6 @@ const theData = [
   },
   {
     logo: "",
-    name: "Gppt",
-    link: "https://gppt.netlify.app",
-    gitlink: "https://github.com/devtofunmi/gpt",
-    description: "GPT3 landing page replica",
-    tools: <SiReact />,
-  },
-  {
-    logo: "",
-    name: "Gppt",
-    link: "https://gppt.netlify.app",
-    gitlink: "https://github.com/devtofunmi/gpt",
-    description: "GPT3 landing page replica",
-    tools: <SiReact />,
-  },
-  {
-    logo: "",
     name: "Easybank",
     link: "https://easybannk.netlify.app",
     gitlink: "https://github.com/devtofunmi",
