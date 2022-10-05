@@ -36,22 +36,6 @@ const theData = [
   },
   {
     logo: "",
-    name: "Coiinsearch",
-    link: "https://coiinsearch.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "A replica of a coiinsearch website i saw on youtube",
-    tools: <SiReact />,
-  },
-  {
-    logo: "",
-    name: "Coiinsearch",
-    link: "https://coiinsearch.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "A replica of a coiinsearch website i saw on youtube",
-    tools: <SiReact />,
-  },
-  {
-    logo: "",
     name: "Stay Bnb",
     link: "https://bnnnb.netlify.app",
     gitlink: "https://github.com/devtofunmi",
