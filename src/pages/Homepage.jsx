@@ -40,7 +40,7 @@ const Homepage = () => {
       >
         <Flex flexDirection="row" alignItems="center">
           <Text fontSize={40} fontWeight={600}>
-            Hi,I'm Tofunmii
+            Hi,I'm Tofunmi
           </Text>
         </Flex>
         <Text mt={5} textColor="#81AFDD">
