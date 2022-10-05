@@ -28,22 +28,6 @@ const theData = [
   },
   {
     logo: "",
-    name: "Easybank",
-    link: "https://easybannk.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "Easy Bank Landing Page replica",
-    tools: <SiReact />,
-  },
-  {
-    logo: "",
-    name: "Easybank",
-    link: "https://easybannk.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "Easy Bank Landing Page replica",
-    tools: <SiReact />,
-  },
-  {
-    logo: "",
     name: "Coiinsearch",
     link: "https://coiinsearch.netlify.app",
     gitlink: "https://github.com/devtofunmi",
