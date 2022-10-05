@@ -72,43 +72,52 @@ const Homepage = () => {
             Projects I've built
           </Text>
           {theData.map((data) => (
-            <Accordion
-              border="1px"
-              bgGradient="linear(to-l, #b90de0, #3363a5)"
-              my={10}
-              defaultIndex={[0]}
-              allowMultiple
-              borderRadius="5px"
-              data-aos="fade-up"
+            <Box
+              bg={"transparent"}
+              cursor="pointer"
+              borderRadius={"md"}
+              _hover={{
+                background:
+                  "linear-gradient(to left, #b90de0 0%, #3363a5 100%)",
+              }}
             >
-              <AccordionItem>
-                <h2>
-                  <AccordionButton>
-                    <Box
-                      flex="1"
-                      textAlign="left"
-                      fontSize={20}
-                      fontWeight={600}
-                    >
-                      {data.name}
-                    </Box>
-                    <AccordionIcon />
-                  </AccordionButton>
-                </h2>
-                <AccordionPanel pb={4}>{data.description}</AccordionPanel>
-                <Flex ml="10px" mb={5} gap="5px">
-                  <a href={data.link} target="blank">
-                    <BsLink45Deg fontSize={30} />
-                  </a>
-                  <a href={data.gitlink} target="blank">
-                    <RiGithubLine fontSize={30} />
-                  </a>
-                  <Box fontSize={30}>{data.tools}</Box>
-                  <Box fontSize={30}>{data.tool}</Box>
-                  <Box fontSize={30}>{data.toolss}</Box>
-                </Flex>
-              </AccordionItem>
-            </Accordion>
+              <Accordion
+                border="1px"
+                my={10}
+                defaultIndex={[0]}
+                allowMultiple
+                borderRadius="5px"
+                data-aos="fade-up"
+              >
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton>
+                      <Box
+                        flex="1"
+                        textAlign="left"
+                        fontSize={20}
+                        fontWeight={600}
+                      >
+                        {data.name}
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>{data.description}</AccordionPanel>
+                  <Flex ml="10px" mb={5} gap="5px">
+                    <a href={data.link} target="blank">
+                      <BsLink45Deg fontSize={30} />
+                    </a>
+                    <a href={data.gitlink} target="blank">
+                      <RiGithubLine fontSize={30} />
+                    </a>
+                    <Box fontSize={30}>{data.tools}</Box>
+                    <Box fontSize={30}>{data.tool}</Box>
+                    <Box fontSize={30}>{data.toolss}</Box>
+                  </Flex>
+                </AccordionItem>
+              </Accordion>
+            </Box>
           ))}
         </Box>
         <Box>
