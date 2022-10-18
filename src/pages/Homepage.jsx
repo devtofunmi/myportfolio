@@ -11,6 +11,7 @@ import {
   AccordionIcon,
   Img,
   Center,
+  Code,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { HiMoon, HiLightBulb } from "react-icons/hi";
@@ -20,6 +21,7 @@ import { RiGithubLine } from "react-icons/ri";
 import theData from "../component/projectsData";
 import StackIcons from "../component/StackIcons";
 import c from "../assets/jj.jpg";
+import code from "../assets/code.png";
 
 const Homepage = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -27,7 +29,7 @@ const Homepage = () => {
 
   return (
     <>
-      <Box>
+      {/* <Box>
         <Button
           onClick={() => {
             toggleColorMode();
@@ -36,7 +38,7 @@ const Homepage = () => {
         >
           {colorMode === "dark" ? <HiMoon /> : <HiLightBulb />}
         </Button>
-      </Box>
+      </Box> */}
       <Flex
         align-items="center"
         justify-content="cener"
@@ -44,18 +46,26 @@ const Homepage = () => {
         m="auto"
         flexDirection="column"
       >
-        <Flex flexDirection="row" alignItems="center">
+        {/* <Code children="console.log(welcome)" /> */}
+        <Flex mt={"50px"} flexDirection="row" alignItems="center">
+          <Code colorScheme="grey" children="<h2>" />
+
           <Text fontSize={40} fontWeight={600}>
             Hi,I'm Tofunmi
+            <Code colorScheme="grey" children="</h2>" />
           </Text>
         </Flex>
         <Text mt={5} textColor="#81AFDD">
+          <Code colorScheme="grey" children="<p>" />
           I'm a Frontend Developer
+          <Code colorScheme="grey" children="</p>" />
         </Text>
         <Text mt={5}>
+          <Code colorScheme="grey" children="<p>" />
           I'm a frontend developer,my expertise is in the area of responsive
           design,i strive to make the web a beautiful place with every line of
           code.
+          <Code colorScheme="grey" children="</p>" />
         </Text>
         <Center
           w={"300px"}
@@ -67,7 +77,9 @@ const Homepage = () => {
         ></Center>
         <Box mt={20}>
           <Text fontSize={25} fontWeight={500}>
+            <Code colorScheme="grey" children="<h2>" />
             Tools I use
+            <Code colorScheme="grey" children="</h2>" />
           </Text>
           <Flex gap={5} mt={5} flexWrap={"wrap"} fontSize="30px">
             <StackIcons />
@@ -75,7 +87,9 @@ const Homepage = () => {
         </Box>
         <Box mt={20}>
           <Text fontSize={25} fontWeight={500}>
+            <Code colorScheme="grey" children="<h2>" />
             Projects I've built
+            <Code colorScheme="grey" children="</h2>" />
           </Text>
           {theData.map((data) => (
             <Box
@@ -128,12 +142,18 @@ const Homepage = () => {
         </Box>
         <Box>
           <Text fontSize={25} fontWeight={500}>
+            <Code colorScheme="grey" children="<h2>" />
             Let's Connect
+            <Code colorScheme="grey" children="</h2>" />
           </Text>
           <Box mt={5} mb={10}>
-            <Flex fontSize={20} alignItems="center">
+            <Flex fontSize={20} alignItems="center" direction={"row"}>
               <a href="https://www.twitter.com/codebreak_er" target="blank">
-                <Text> Twitter</Text>
+                <Code
+                  // fontSize={20}
+                  colorScheme="grey"
+                  children="<> Twitter </>"
+                />
               </a>
             </Flex>
             <Text textColor="#81AFDD">
@@ -142,7 +162,11 @@ const Homepage = () => {
 
             <Flex mt="10px" fontSize={20} alignItems="center">
               <a href="https://wa.me/09072905477" target="blank">
-                Whatsapp
+                <Code
+                  // fontSize={20}
+                  colorScheme="grey"
+                  children="<> Whatsapp </>"
+                />
               </a>
             </Flex>
             <Text textColor="#81AFDD">Message me let's chat</Text>
