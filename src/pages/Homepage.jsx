@@ -91,8 +91,9 @@ const Homepage = () => {
             Projects I've built
             <Code colorScheme="grey" children="</h2>" />
           </Text>
-          {theData.map((data) => (
+          {theData.map((data, id) => (
             <Box
+              key={id}
               bg={"transparent"}
               cursor="pointer"
               borderRadius={"md"}
