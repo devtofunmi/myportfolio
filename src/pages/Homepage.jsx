@@ -71,7 +71,7 @@ const Homepage = () => {
           w={"300px"}
           h={"300px"}
           borderRadius={"120%"}
-          bgImage={c}
+          bgImage={code}
           bgPosition={"top"}
           mt={"50px"}
         ></Center>
