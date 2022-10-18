@@ -39,12 +39,23 @@ const Homepage = () => {
           {colorMode === "dark" ? <HiMoon /> : <HiLightBulb />}
         </Button>
       </Box> */}
+
       <Flex
         align-items="center"
         justify-content="cener"
         w={["90%", "50%"]}
         m="auto"
         flexDirection="column"
+        // sx={{
+        //   "&::-webkit-scrollbar": {
+        //     width: "5px",
+        //     borderRadius: "8px",
+        //     backgroundColor: `rgba(0, 0, 0, 0.05)`,
+        //   },
+        //   "&::-webkit-scrollbar-thumb": {
+        //     backgroundColor: `rgba(0, 0, 0, 0.05)`,
+        //   },
+        // }}
       >
         {/* <Code children="console.log(welcome)" /> */}
         <Flex mt={"50px"} flexDirection="row" alignItems="center">
