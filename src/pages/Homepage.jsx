@@ -59,38 +59,38 @@ const Homepage = () => {
       >
         {/* <Code children="console.log(welcome)" /> */}
         <Flex mt={"50px"} flexDirection="row" alignItems="center">
-          <Code colorScheme="grey" children="<h2>" />
+          {/* <Code colorScheme="grey" children="<h2>" /> */}
 
           <Text fontSize={40} fontWeight={600}>
             Hi,I'm Tofunmi
-            <Code colorScheme="grey" children="</h2>" />
+            {/* <Code colorScheme="grey" children="</h2>" /> */}
           </Text>
         </Flex>
         <Text mt={5} textColor="#81AFDD">
-          <Code colorScheme="grey" children="<p>" />
+          {/* <Code colorScheme="grey" children="<p>" /> */}
           I'm a Frontend Developer
-          <Code colorScheme="grey" children="</p>" />
+          {/* <Code colorScheme="grey" children="</p>" /> */}
         </Text>
         <Text mt={5}>
-          <Code colorScheme="grey" children="<p>" />
+          {/* <Code colorScheme="grey" children="<p>" /> */}
           I'm a frontend developer,my expertise is in the area of responsive
           design,i strive to make the web a beautiful place with every line of
           code.
-          <Code colorScheme="grey" children="</p>" />
+          {/* <Code colorScheme="grey" children="</p>" /> */}
         </Text>
-        <Center
+        {/* <Center
           w={"300px"}
           h={"300px"}
           borderRadius={"120%"}
           bgImage={c}
           bgPosition={"top"}
           mt={"50px"}
-        ></Center>
+        ></Center> */}
         <Box mt={20}>
           <Text fontSize={25} fontWeight={500}>
-            <Code colorScheme="grey" children="<h2>" />
+            {/* <Code colorScheme="grey" children="<h2>" /> */}
             Tools I use
-            <Code colorScheme="grey" children="</h2>" />
+            {/* <Code colorScheme="grey" children="</h2>" /> */}
           </Text>
           <Flex gap={5} mt={5} flexWrap={"wrap"} fontSize="30px">
             <StackIcons />
@@ -98,9 +98,9 @@ const Homepage = () => {
         </Box>
         <Box mt={20}>
           <Text fontSize={25} fontWeight={500}>
-            <Code colorScheme="grey" children="<h2>" />
+            {/* <Code colorScheme="grey" children="<h2>" /> */}
             Projects I've built
-            <Code colorScheme="grey" children="</h2>" />
+            {/* <Code colorScheme="grey" children="</h2>" /> */}
           </Text>
           {theData.map((data, id) => (
             <Box
@@ -154,9 +154,9 @@ const Homepage = () => {
         </Box>
         <Box>
           <Text fontSize={25} fontWeight={500}>
-            <Code colorScheme="grey" children="<h2>" />
+            {/* <Code colorScheme="grey" children="<h2>" /> */}
             Let's Connect
-            <Code colorScheme="grey" children="</h2>" />
+            {/* <Code colorScheme="grey" children="</h2>" /> */}
           </Text>
           <Box mt={5} mb={10}>
             <Flex fontSize={20} alignItems="center" direction={"row"}>
