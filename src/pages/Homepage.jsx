@@ -20,8 +20,6 @@ import { RiGithubLine } from "react-icons/ri";
 
 import theData from "../component/projectsData";
 import StackIcons from "../component/StackIcons";
-import c from "../assets/jj.jpg";
-import code from "../assets/code.png";
 
 const Homepage = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -29,17 +27,6 @@ const Homepage = () => {
 
   return (
     <>
-      {/* <Box>
-        <Button
-          onClick={() => {
-            toggleColorMode();
-            setIsDark(!isDark);
-          }}
-        >
-          {colorMode === "dark" ? <HiMoon /> : <HiLightBulb />}
-        </Button>
-      </Box> */}
-
       <Flex
         align-items="center"
         justify-content="cener"
@@ -59,7 +46,6 @@ const Homepage = () => {
       >
         {/* <Code children="console.log(welcome)" /> */}
         <Flex mt={"50px"} flexDirection="row" alignItems="center">
-          {/* <Code colorScheme="grey" children="<h2>" /> */}
           <Flex direction={"row"}>
             <Text fontSize={40} fontWeight={600}>
               Hi,I'm Tofunmi
@@ -69,35 +55,20 @@ const Homepage = () => {
               src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
             />
           </Flex>
-
-          {/* <Code colorScheme="grey" children="</h2>" /> */}
         </Flex>
         <Text mt={5} textColor="#81AFDD">
-          {/* <Code colorScheme="grey" children="<p>" /> */}
           I'm a Frontend Developer
-          {/* <Code colorScheme="grey" children="</p>" /> */}
         </Text>
         <Text mt={5}>
-          {/* <Code colorScheme="grey" children="<p>" /> */}
           I'm a frontend developer,my expertise is in the area of responsive
           design,i strive to make the web a beautiful place with every line of
           code.
-          {/* <Code colorScheme="grey" children="</p>" /> */}
         </Text>
-        {/* <Center
-          w={"300px"}
-          h={"300px"}
-          borderRadius={"120%"}
-          bgImage={c}
-          bgPosition={"top"}
-          mt={"50px"}
-        ></Center> */}
+
         <Box mt={20}>
           <Flex>
             <Text fontSize={25} fontWeight={500}>
-              {/* <Code colorScheme="grey" children="<h2>" /> */}
               Tools I use
-              {/* <Code colorScheme="grey" children="</h2>" /> */}
             </Text>
             <Img
               width={"40px"}
@@ -112,7 +83,6 @@ const Homepage = () => {
           <Img src="https://media.giphy.com/media/DCBuTtOtzhrGK5sdNv/giphy.gif" />
           <Flex>
             <Flex fontSize={25} fontWeight={500}>
-              {/* <Code colorScheme="grey" children="<h2>" /> */}
               Projects I've built
             </Flex>
 
@@ -120,11 +90,6 @@ const Homepage = () => {
               width={"40px"}
               src="https://media.giphy.com/media/ehC4SqtNcEeLAiu66w/giphy.gif"
             />
-            {/* <Img
-              width={"40px"}
-              src="https://media.giphy.com/media/hpFCIpvGxUKgTfjRKl/giphy.gif"
-            /> */}
-            {/* <Code colorScheme="grey" children="</h2>" /> */}
           </Flex>
           {theData.map((data, id) => (
             <Box
@@ -167,9 +132,9 @@ const Homepage = () => {
                     <a href={data.gitlink} target="blank">
                       <RiGithubLine fontSize={30} />
                     </a>
-                    <Box fontSize={30}>{data.tools}</Box>
-                    <Box fontSize={30}>{data.tool}</Box>
-                    <Box fontSize={30}>{data.toolss}</Box>
+                    <Box fontSize={15}>{data.tools}</Box>
+                    <Box fontSize={15}>{data.tool}</Box>
+                    <Box fontSize={15}>{data.toolss}</Box>
                   </Flex>
                 </AccordionItem>
               </Accordion>
