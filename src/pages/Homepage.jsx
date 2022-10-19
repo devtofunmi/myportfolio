@@ -60,11 +60,17 @@ const Homepage = () => {
         {/* <Code children="console.log(welcome)" /> */}
         <Flex mt={"50px"} flexDirection="row" alignItems="center">
           {/* <Code colorScheme="grey" children="<h2>" /> */}
+          <Flex direction={"row"}>
+            <Text fontSize={40} fontWeight={600}>
+              Hi,I'm Tofunmi
+            </Text>
+            <Img
+              width={"50px"}
+              src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
+            />
+          </Flex>
 
-          <Text fontSize={40} fontWeight={600}>
-            Hi,I'm Tofunmi
-            {/* <Code colorScheme="grey" children="</h2>" /> */}
-          </Text>
+          {/* <Code colorScheme="grey" children="</h2>" /> */}
         </Flex>
         <Text mt={5} textColor="#81AFDD">
           {/* <Code colorScheme="grey" children="<p>" /> */}
@@ -87,21 +93,39 @@ const Homepage = () => {
           mt={"50px"}
         ></Center> */}
         <Box mt={20}>
-          <Text fontSize={25} fontWeight={500}>
-            {/* <Code colorScheme="grey" children="<h2>" /> */}
-            Tools I use
-            {/* <Code colorScheme="grey" children="</h2>" /> */}
-          </Text>
+          <Flex>
+            <Text fontSize={25} fontWeight={500}>
+              {/* <Code colorScheme="grey" children="<h2>" /> */}
+              Tools I use
+              {/* <Code colorScheme="grey" children="</h2>" /> */}
+            </Text>
+            <Img
+              width={"40px"}
+              src="https://media.giphy.com/media/2Y8WL0eWZDNIFRoQbO/giphy.gif"
+            />
+          </Flex>
           <Flex gap={5} mt={5} flexWrap={"wrap"} fontSize="30px">
             <StackIcons />
           </Flex>
         </Box>
         <Box mt={20}>
-          <Text fontSize={25} fontWeight={500}>
-            {/* <Code colorScheme="grey" children="<h2>" /> */}
-            Projects I've built
+          <Img src="https://media.giphy.com/media/DCBuTtOtzhrGK5sdNv/giphy.gif" />
+          <Flex>
+            <Flex fontSize={25} fontWeight={500}>
+              {/* <Code colorScheme="grey" children="<h2>" /> */}
+              Projects I've built
+            </Flex>
+
+            <Img
+              width={"40px"}
+              src="https://media.giphy.com/media/ehC4SqtNcEeLAiu66w/giphy.gif"
+            />
+            {/* <Img
+              width={"40px"}
+              src="https://media.giphy.com/media/hpFCIpvGxUKgTfjRKl/giphy.gif"
+            /> */}
             {/* <Code colorScheme="grey" children="</h2>" /> */}
-          </Text>
+          </Flex>
           {theData.map((data, id) => (
             <Box
               key={id}
@@ -153,11 +177,15 @@ const Homepage = () => {
           ))}
         </Box>
         <Box>
-          <Text fontSize={25} fontWeight={500}>
-            {/* <Code colorScheme="grey" children="<h2>" /> */}
-            Let's Connect
-            {/* <Code colorScheme="grey" children="</h2>" /> */}
-          </Text>
+          <Flex>
+            <Text fontSize={25} fontWeight={500}>
+              Let's Connect
+            </Text>
+            <Img
+              width={"40px"}
+              src="https://media.giphy.com/media/ukSqaH6XYVuU0XuBI6/giphy.gif"
+            />
+          </Flex>
           <Box mt={5} mb={10}>
             <Flex fontSize={20} alignItems="center" direction={"row"}>
               <a href="https://www.twitter.com/codebreak_er" target="blank">
