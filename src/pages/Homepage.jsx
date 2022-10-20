@@ -12,6 +12,7 @@ import {
   Img,
   Center,
   Code,
+  Tag,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { HiMoon, HiLightBulb } from "react-icons/hi";
@@ -125,16 +126,18 @@ const Homepage = () => {
                     </AccordionButton>
                   </h2>
                   <AccordionPanel pb={4}>{data.description}</AccordionPanel>
+                  <Flex gap={"7px"} ml={"10px"} mb={"10px"}>
+                    <Tag bg={"gold"}>{data.tools} React</Tag>
+                    <Tag bg={"red"}>{data.tool} Javascript</Tag>
+                    <Tag bg={"pink"}>{data.toolss} Css</Tag>
+                  </Flex>
                   <Flex ml="10px" mb={5} gap="5px">
                     <a href={data.link} target="blank">
-                      <BsLink45Deg fontSize={30} />
+                      <BsLink45Deg fontSize={25} />
                     </a>
                     <a href={data.gitlink} target="blank">
-                      <RiGithubLine fontSize={30} />
+                      <RiGithubLine fontSize={25} />
                     </a>
-                    <Box fontSize={15}>{data.tools}</Box>
-                    <Box fontSize={15}>{data.tool}</Box>
-                    <Box fontSize={15}>{data.toolss}</Box>
                   </Flex>
                 </AccordionItem>
               </Accordion>
