@@ -8,7 +8,7 @@ function App() {
   }, []);
   return (
     <>
-      <Box w={"100%"} minH={"100vh"} bg={"#181819"} color={"white"}>
+      <Box w={"100%"} minH={"100vh"} bg={"#0c1c24"} color={"white"}>
         <Homepage />
       </Box>
     </>
