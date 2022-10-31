@@ -15,7 +15,7 @@ import {
   Tag,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { HiMoon, HiLightBulb } from "react-icons/hi";
+
 import { BsLink45Deg } from "react-icons/bs";
 import { RiGithubLine } from "react-icons/ri";
 
@@ -34,18 +34,7 @@ const Homepage = () => {
         w={["90%", "50%"]}
         m="auto"
         flexDirection="column"
-        // sx={{
-        //   "&::-webkit-scrollbar": {
-        //     width: "5px",
-        //     borderRadius: "8px",
-        //     backgroundColor: `rgba(0, 0, 0, 0.05)`,
-        //   },
-        //   "&::-webkit-scrollbar-thumb": {
-        //     backgroundColor: `rgba(0, 0, 0, 0.05)`,
-        //   },
-        // }}
       >
-        {/* <Code children="console.log(welcome)" /> */}
         <Flex mt={"50px"} flexDirection="row" alignItems="center">
           <Flex direction={"row"}>
             <Text fontSize={40} fontWeight={600}>
