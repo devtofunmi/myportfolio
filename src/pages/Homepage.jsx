@@ -21,7 +21,7 @@ import { RiGithubLine } from "react-icons/ri";
 
 import theData from "../component/projectsData";
 import StackIcons from "../component/StackIcons";
-
+import jj from "../assets/gpt.png";
 const Homepage = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const [isDark, setIsDark] = useState(true);
@@ -93,6 +93,7 @@ const Homepage = () => {
               tool,
               tools,
               toolss,
+              image,
             }) => (
               <Box
                 key={id}
