@@ -81,57 +81,74 @@ const Homepage = () => {
               src="https://media.giphy.com/media/ehC4SqtNcEeLAiu66w/giphy.gif"
             />
           </Flex>
-          {theData.map((data, id) => (
-            <Box
-              key={id}
-              bg={"transparent"}
-              cursor="pointer"
-              borderRadius={"md"}
-              _hover={{
-                background:
-                  "linear-gradient(to left, #b90de0 0%, #3363a5 100%)",
-              }}
-            >
-              <Accordion
-                border="1px"
-                my={10}
-                defaultIndex={[0]}
-                allowMultiple
-                borderRadius="5px"
-                data-aos="fade-up"
+          {theData.map(
+            ({
+              logo,
+              name,
+              link,
+              id,
+              tags,
+              gitlink,
+              description,
+              tool,
+              tools,
+              toolss,
+            }) => (
+              <Box
+                key={id}
+                bg={"transparent"}
+                cursor="pointer"
+                borderRadius={"md"}
+                _hover={{
+                  background:
+                    "linear-gradient(to left, #b90de0 0%, #3363a5 100%)",
+                }}
               >
-                <AccordionItem>
-                  <h2>
-                    <AccordionButton>
-                      <Box
-                        flex="1"
-                        textAlign="left"
-                        fontSize={20}
-                        fontWeight={600}
-                      >
-                        {data.name}
-                      </Box>
-                      <AccordionIcon />
-                    </AccordionButton>
-                  </h2>
-                  <AccordionPanel pb={4}>{data.description}</AccordionPanel>
-                  <Flex gap={"7px"} ml={"10px"} mb={"10px"}>
-                    <Tag bg={"blue"}>{data.tools} </Tag>
-                    <Tag bg={"red"}>{data.tool} </Tag>
-                    <Tag bg={"green"}>{data.toolss} </Tag>
-                  </Flex>
-                  <Flex ml="10px" mb={5} gap="5px">
-                    <a href={data.link} target="blank">
-                      <BsLink45Deg fontSize={25} />
-                    </a>
-                    <a href={data.gitlink} target="blank">
-                      <RiGithubLine fontSize={25} />
-                    </a>
-                  </Flex>
-                </AccordionItem>
-              </Accordion>
-            </Box>
-          ))}
+                <Accordion
+                  border="1px"
+                  my={10}
+                  defaultIndex={[0]}
+                  allowMultiple
+                  borderRadius="5px"
+                  data-aos="fade-up"
+                >
+                  <AccordionItem>
+                    <h2>
+                      <AccordionButton>
+                        <Box
+                          flex="1"
+                          textAlign="left"
+                          fontSize={20}
+                          fontWeight={600}
+                        >
+                          {name}
+                        </Box>
+                        <AccordionIcon />
+                      </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4}>{description}</AccordionPanel>
+                    <Flex gap={"7px"} ml={"10px"} mb={"10px"}>
+                      <Tag bg={"blue"}>{tools} </Tag>
+                      <Tag bg={"red"}>{tool} </Tag>
+                      <Tag bg={"green"}>{toolss} </Tag>
+
+                      {/* {tags.map((tag, i) => { */}
+                      {/* <Tag key={i}>{tag}</Tag>; */}
+                      {/* })} */}
+                    </Flex>
+                    <Flex ml="10px" mb={5} gap="5px">
+                      <a href={link} target="blank">
+                        <BsLink45Deg fontSize={25} />
+                      </a>
+                      <a href={gitlink} target="blank">
+                        <RiGithubLine fontSize={25} />
+                      </a>
+                    </Flex>
+                  </AccordionItem>
+                </Accordion>
+              </Box>
+            )
+          )}
         </Box>
         <Box>
           <Flex>
