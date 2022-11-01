@@ -116,9 +116,9 @@ const Homepage = () => {
                   </h2>
                   <AccordionPanel pb={4}>{data.description}</AccordionPanel>
                   <Flex gap={"7px"} ml={"10px"} mb={"10px"}>
-                    <Tag bg={"blue"}>{data.tools} React</Tag>
-                    <Tag bg={"red"}>{data.tool} Javascript</Tag>
-                    <Tag bg={"green"}>{data.toolss} Css</Tag>
+                    <Tag bg={"blue"}>{data.tools} </Tag>
+                    <Tag bg={"red"}>{data.tool} </Tag>
+                    <Tag bg={"green"}>{data.toolss} </Tag>
                   </Flex>
                   <Flex ml="10px" mb={5} gap="5px">
                     <a href={data.link} target="blank">
