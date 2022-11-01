@@ -8,6 +8,7 @@ const theData = [
     gitlink: "https://github.com/devtofunmi/crypto",
     description: "A live crytocurrency website",
     tools: <SiReact />,
+    // tags: [<SiReact />],
   },
 
   {
@@ -17,6 +18,7 @@ const theData = [
     gitlink: "https://github.com/devtofunmi/gpt",
     description: "GPT3 landing page replica",
     tools: <SiReact />,
+    // tags: [<SiReact />],
   },
   {
     logo: "",
@@ -25,6 +27,7 @@ const theData = [
     gitlink: "https://github.com/devtofunmi",
     description: "Easy Bank Landing Page replica",
     tools: <SiReact />,
+    // tags: [<SiReact />],
   },
   {
     logo: "",
@@ -33,6 +36,7 @@ const theData = [
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of a coiinsearch website i saw on youtube",
     tools: <SiReact />,
+    // tags: [<SiReact />],
   },
   {
     logo: "",
@@ -43,6 +47,7 @@ const theData = [
     tool: <SiJavascript />,
     tools: <SiHtml5 />,
     toolss: <SiCss3 />,
+    // tags: [<SiCss3 />, <SiJavascript />, <SiHtml5 />],
   },
   {
     logo: "",
@@ -52,6 +57,7 @@ const theData = [
     description: "Huddle landing page replica",
     tools: <SiHtml5 />,
     toolss: <SiCss3 />,
+    // tags: [<SiCss3 />, <SiHtml5 />],
   },
   {
     logo: "",
@@ -62,6 +68,7 @@ const theData = [
     tools: <SiHtml5 />,
     toolss: <SiCss3 />,
     tool: <SiSass />,
+    // tags: [<SiCss3 />, <SiSass />, <SiHtml5 />],
   },
 ];
 
