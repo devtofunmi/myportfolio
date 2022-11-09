@@ -21,13 +21,17 @@ import { RiGithubLine } from "react-icons/ri";
 
 import theData from "../component/projectsData";
 import StackIcons from "../component/StackIcons";
-import jj from "../assets/gpt.png";
+import jay from "../assets/jay.jpeg";
+import Navbar from "../component/Navbar";
 const Homepage = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const [isDark, setIsDark] = useState(true);
 
   return (
     <>
+      <Center>
+        <Navbar />
+      </Center>
       <Flex
         align-items="center"
         justify-content="cener"
@@ -35,123 +39,46 @@ const Homepage = () => {
         m="auto"
         flexDirection="column"
       >
-        <Flex mt={"50px"} flexDirection="row" alignItems="center">
-          <Flex direction={"row"}>
-            <Text fontSize={40} fontWeight={600}>
-              Hi,I'm Tofunmi
-            </Text>
-            <Img
-              width={"50px"}
-              src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
-            />
-          </Flex>
-        </Flex>
-        <Text mt={5} textColor="#81AFDD">
-          I'm a Frontend Developer
-        </Text>
-        <Text mt={5}>
-          I'm a frontend developer,my expertise is in the area of responsive
-          design,i strive to make the web a beautiful place with every line of
-          code.
-        </Text>
-
-        <Box mt={20}>
-          <Flex>
-            <Text fontSize={25} fontWeight={500}>
-              Tools I use
-            </Text>
-            <Img
-              width={"40px"}
-              src="https://media.giphy.com/media/2Y8WL0eWZDNIFRoQbO/giphy.gif"
-            />
-          </Flex>
-          <Flex gap={5} mt={5} flexWrap={"wrap"} fontSize="30px">
-            <StackIcons />
-          </Flex>
-        </Box>
-        <Box mt={20}>
-          <Img src="https://media.giphy.com/media/DCBuTtOtzhrGK5sdNv/giphy.gif" />
-          <Flex>
-            <Flex fontSize={25} fontWeight={500}>
-              Projects I've built
+        <Flex mt={"50px"} gap={"40px"} flexDirection="row" alignItems="center">
+          <Box
+            w={"400px"}
+            height={"200px"}
+            backgroundImage={jay}
+            bgPosition={"center"}
+            borderRadius={"300px"}
+          >
+            {/* <Img src={jay} /> */}
+          </Box>
+          <Box>
+            <Flex>
+              <Text fontSize={40} fontWeight={600}>
+                Tofunmi
+              </Text>
+              <Img
+                width={"50px"}
+                src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
+              />
             </Flex>
 
-            <Img
-              width={"40px"}
-              src="https://media.giphy.com/media/ehC4SqtNcEeLAiu66w/giphy.gif"
-            />
-          </Flex>
-          {theData.map(
-            ({
-              logo,
-              name,
-              link,
-              id,
-              tags,
-              gitlink,
-              description,
-              tool,
-              tools,
-              toolss,
-              image,
-            }) => (
-              <Box
-                key={id}
-                bg={"transparent"}
-                cursor="pointer"
-                borderRadius={"md"}
-                _hover={{
-                  background:
-                    "linear-gradient(to left, #b90de0 0%, #3363a5 100%)",
-                }}
-              >
-                <Accordion
-                  border="1px"
-                  my={10}
-                  defaultIndex={[0]}
-                  allowMultiple
-                  borderRadius="5px"
-                  data-aos="fade-up"
-                >
-                  <AccordionItem>
-                    <h2>
-                      <AccordionButton>
-                        <Box
-                          flex="1"
-                          textAlign="left"
-                          fontSize={20}
-                          fontWeight={600}
-                        >
-                          {name}
-                        </Box>
-                        <AccordionIcon />
-                      </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>{description}</AccordionPanel>
-                    <Flex gap={"7px"} ml={"10px"} mb={"10px"}>
-                      <Tag bg={"blue"}>{tools} </Tag>
-                      <Tag bg={"red"}>{tool} </Tag>
-                      <Tag bg={"green"}>{toolss} </Tag>
-
-                      {/* {tags.map((tag, i) => { */}
-                      {/* <Tag key={i}>{tag}</Tag>; */}
-                      {/* })} */}
-                    </Flex>
-                    <Flex ml="10px" mb={5} gap="5px">
-                      <a href={link} target="blank">
-                        <BsLink45Deg fontSize={25} />
-                      </a>
-                      <a href={gitlink} target="blank">
-                        <RiGithubLine fontSize={25} />
-                      </a>
-                    </Flex>
-                  </AccordionItem>
-                </Accordion>
-              </Box>
-            )
-          )}
+            <Text mt={5} textColor="#81AFDD">
+              I'm a Frontend Developer
+            </Text>
+            <Text mt={5}>
+              I'm a frontend developer,my expertise is in the area of responsive
+              design,i strive to make the web a beautiful place with every line
+              of code.
+            </Text>
+          </Box>
+        </Flex>
+        <Box mt={"70px"} textAlign={"center"}>
+          <Text fontSize={"40px"}>Who am I? 🤔</Text>
+          <Text mt={"20px"}>
+            Hey there! I'm Lance Ross. I am an aspiring Web developer in the
+            Philippines. You probably saw me on Twitter tweeting about 100 Days
+            of Code, or maybe you just saw me randomly on the internet.
+          </Text>
         </Box>
-        <Box>
+        <Box mt={"30px"}>
           <Flex>
             <Text fontSize={25} fontWeight={500}>
               Let's Connect
