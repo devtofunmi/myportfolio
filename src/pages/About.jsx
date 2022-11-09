@@ -19,26 +19,26 @@ const About = () => {
         flexDirection="column"
       >
         <Box>
-          <Text>About Me 👨‍💻</Text>
+          <Text fontSize={"25px"}>About Me 👨‍💻</Text>
           <Text>
-            I'm Lance Ross, an aspiring Web developer from the Philippines. I
-            enjoy building projects using Astro and Tailwind CSS. I started
-            learning web development last August 2022.
+            I'm Olayiwola Jesutofunmi, an aspiring Web developer,I enjoy
+            building projects using React and Chakra,I started learning web
+            development in August 2021.
           </Text>
-          <Text>
+          {/* <Text>
             I create websites when I have free time after school. When not busy
             with doing projects and schoolworks, I try to how to play a guitar,
             and does exercise every other day at night.
+          </Text> */}
+        </Box>
+        <Box mt={"30px"}>
+          <Text fontSize={"25px"}>Tech Stack ⚡</Text>
+          <Text mt={"10px"}>
+            I love exploring new libraries, programing languages and frameworks.
+            Here is a list of technologies that I have worked with.
           </Text>
         </Box>
-        <Box>
-          <Text>Tech Stack ⚡</Text>
-          <Text>
-            I love exploring new libraries and frameworks. Here is a short list
-            of technologies that I use with my side projects. Astro Jav
-          </Text>
-        </Box>
-        <Flex>
+        {/* <Flex>
           <Text fontSize={25} fontWeight={500}>
             Tools I use
           </Text>
@@ -46,23 +46,15 @@ const About = () => {
             width={"40px"}
             src="https://media.giphy.com/media/2Y8WL0eWZDNIFRoQbO/giphy.gif"
           />
-        </Flex>
-        <Box fontSize="30px">
+        </Flex> */}
+        <Flex mt={"20px"} fontSize="20px" flexWrap={"wrap"} gap={"50px"}>
           {StackIcons.map(({ name, icon }) => (
-            <Flex
-              textAlign={"center"}
-              gap={"10px"}
-              justifyContent={"center"}
-              direction={"row"}
-            >
-              <Box>
-                <Text>{icon}</Text>
-
-                <Text>{name}</Text>
-              </Box>
+            <Flex gap={"5px"}>
+              <Text>{icon}</Text>
+              <Text>{name}</Text>
             </Flex>
           ))}
-        </Box>
+        </Flex>
       </Flex>
     </>
   );
