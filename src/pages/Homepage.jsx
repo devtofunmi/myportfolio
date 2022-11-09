@@ -61,7 +61,7 @@ const Homepage = () => {
             </Flex>
 
             <Text mt={5} textColor="#81AFDD">
-              I'm a Frontend Developer
+              Frontend Developer
             </Text>
             <Text mt={5}>
               I'm a frontend developer,my expertise is in the area of responsive
@@ -73,9 +73,9 @@ const Homepage = () => {
         <Box mt={"70px"} textAlign={"center"}>
           <Text fontSize={"40px"}>Who am I? 🤔</Text>
           <Text mt={"20px"}>
-            Hey there! I'm Lance Ross. I am an aspiring Web developer in the
-            Philippines. You probably saw me on Twitter tweeting about 100 Days
-            of Code, or maybe you just saw me randomly on the internet.
+            Hi! I'm Tofunmi. I am an aspiring Web developer You probably saw me
+            on Twitter tweeting about 100 Days of Code, or maybe you just saw me
+            randomly on the internet.
           </Text>
         </Box>
         <Box mt={"30px"}>
