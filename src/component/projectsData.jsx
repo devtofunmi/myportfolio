@@ -10,7 +10,7 @@ const theData = [
     link: "https://cryppto.netlify.app",
     gitlink: "https://github.com/devtofunmi/crypto",
     description: "A live crytocurrency website",
-    tools: <SiReact />,
+    tools: "React",
     // tags: [<SiReact />],
   },
 
@@ -20,7 +20,7 @@ const theData = [
     link: "https://gppt.netlify.app",
     gitlink: "https://github.com/devtofunmi/gpt",
     description: "GPT3 landing page replica",
-    tools: <SiReact />,
+    tools: "React",
     // tags: [<SiReact />],
   },
   {
@@ -29,7 +29,7 @@ const theData = [
     link: "https://easybannk.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "Easy Bank Landing Page replica",
-    tools: <SiReact />,
+    tools: "React",
     // tags: [<SiReact />],
   },
   {
@@ -38,7 +38,7 @@ const theData = [
     link: "https://coiinsearch.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of a coiinsearch website i saw on youtube",
-    tools: <SiReact />,
+    tools: "React",
     // tags: [<SiReact />],
   },
   {
@@ -47,9 +47,9 @@ const theData = [
     link: "https://bnnnb.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of staybnb website",
-    tool: <SiJavascript />,
-    tools: <SiHtml5 />,
-    toolss: <SiCss3 />,
+    tool: "Javascript",
+    tools: "Html",
+    toolss: "Css",
     // tags: [<SiCss3 />, <SiJavascript />, <SiHtml5 />],
   },
   {
@@ -58,8 +58,8 @@ const theData = [
     link: "https://hudd.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "Huddle landing page replica",
-    tools: <SiHtml5 />,
-    toolss: <SiCss3 />,
+    tools: "Html",
+    toolss: "Css",
     // tags: [<SiCss3 />, <SiHtml5 />],
   },
   {
@@ -68,9 +68,9 @@ const theData = [
     link: "https://flytoo.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of staybnb homepage",
-    tools: <SiHtml5 />,
-    toolss: <SiCss3 />,
-    tool: <SiSass />,
+    tools: "Html",
+    toolss: "Css",
+    tool: "Sass",
     // tags: [<SiCss3 />, <SiSass />, <SiHtml5 />],
   },
 ];
