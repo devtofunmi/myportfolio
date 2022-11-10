@@ -58,12 +58,12 @@ const Project = () => {
                 <Flex justifyContent={"space-between"}>
                   <Flex alignItems={"center"}>
                     <Text>{name}</Text>
-                    <a href={link}>
+                    <a target={"_blank"} href={link}>
                       <BsLink45Deg />
                     </a>
                   </Flex>
                   <Box>
-                    <a href={gitlink}>
+                    <a target={"_blank"} href={gitlink}>
                       <RiGithubLine />
                     </a>
                   </Box>
