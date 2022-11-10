@@ -59,12 +59,12 @@ const About = () => {
           mt={"20px"}
           fontSize="20px"
           flexWrap={"wrap"}
-          gap={"30px"}
-          justifyContent={"center"}
-          w={"500px"}
+          gap={["30px", "50px"]}
+          justifyContent={"space-between"}
+          // w={"500px"}
         >
           {StackIcons.map(({ name, icon }) => (
-            <Flex gap={"5px"}>
+            <Flex gap={"5px"} alignItems={"center"}>
               <Text>{icon}</Text>
               <Text>{name}</Text>
             </Flex>
