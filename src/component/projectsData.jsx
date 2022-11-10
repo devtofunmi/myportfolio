@@ -3,7 +3,16 @@ import { SiHtml5, SiReact, SiJavascript, SiCss3, SiSass } from "react-icons/si";
 
 const theData = [
   {
-    logo: "../assets/gpt.png",
+    name: "Madewithchakra",
+
+    link: "https://madewithchakra.netlify.app",
+    gitlink: "https://github.com/devtofunmi/madewithchakra",
+    description: "Showcase websites made with Chakra UI",
+    tools: "React",
+    toolss: "Chakra",
+    // tags: [<SiReact />],
+  },
+  {
     name: "Cryppto",
 
     link: "https://cryppto.netlify.app",
