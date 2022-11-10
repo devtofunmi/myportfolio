@@ -21,7 +21,7 @@ import { RiGithubLine } from "react-icons/ri";
 
 import theData from "../component/projectsData";
 import StackIcons from "../component/StackIcons";
-import jay from "../assets/jay.jpeg";
+import jay from "../assets/jay.png";
 import Navbar from "../component/Navbar";
 const Homepage = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -43,16 +43,10 @@ const Homepage = () => {
           mt={"50px"}
           gap={"40px"}
           flexDirection={["column", "row"]}
-          alignItems="center"
+          alignItems={["left", "center"]}
         >
-          <Box
-            w={"400px"}
-            height={"200px"}
-            backgroundImage={jay}
-            bgPosition={"center"}
-            borderRadius={"300px"}
-          >
-            {/* <Img src={jay} /> */}
+          <Box>
+            <Img w={["190px", "350px"]} src={jay} />
           </Box>
           <Box>
             <Flex>
@@ -66,7 +60,7 @@ const Homepage = () => {
             </Flex>
 
             <Text mt={5} textColor="#81AFDD">
-              Frontend Developer
+              Frontend Developer 💨
             </Text>
             <Text mt={5}>
               I'm a frontend developer,my expertise is in the area of responsive
@@ -75,7 +69,7 @@ const Homepage = () => {
             </Text>
           </Box>
         </Flex>
-        <Box mt={"70px"} textAlign={"center"}>
+        <Box mt={"70px"} textAlign={"left"}>
           <Flex fontSize={"40px"} fontWeight={500}>
             Who am I?
             <Img
