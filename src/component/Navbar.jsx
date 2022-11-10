@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link to={"/"} mt={"20px"}>
           <Text
             _hover={{
-              color: "teal",
+              color: "#81AFDD",
             }}
           >
             Homepage
@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link to={"/devtofunmi/project"} mt={"20px"}>
           <Text
             _hover={{
-              color: "teal",
+              color: "#81AFDD",
             }}
           >
             Project
@@ -32,7 +32,7 @@ const Navbar = () => {
         <Link to={"/devtofunmi/about"} mt={"20px"}>
           <Text
             _hover={{
-              color: "teal",
+              color: "#81AFDD",
             }}
           >
             About
