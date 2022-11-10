@@ -75,7 +75,7 @@ const StackIcons = [
     icon: <SiCss3 />,
   },
   {
-    name: "Css",
+    name: "Html",
     icon: <SiHtml5 />,
   },
 ];
