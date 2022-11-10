@@ -1,18 +1,6 @@
 import React from "react";
 import Navbar from "../component/Navbar";
-import {
-  Accordion,
-  AccordionButton,
-  AccordionItem,
-  Box,
-  Flex,
-  AccordionPanel,
-  AccordionIcon,
-  Img,
-  Center,
-  Tag,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Flex, Img, Center, Text } from "@chakra-ui/react";
 import theData from "../component/projectsData";
 import { RiGithubLine } from "react-icons/ri";
 import { BsLink45Deg } from "react-icons/bs";
@@ -85,8 +73,6 @@ const Project = () => {
                 <Text my={"10px"}>{tool}</Text>
                 <Text my={"10px"}>{tools}</Text>
                 <Text my={"10px"}>{toolss}</Text>
-                {/* <Text>{tools}</Text>
-                <Text>{toolss}</Text> */}
               </Flex>
               <Text mt={"5px"}>{description}</Text>
             </Box>
