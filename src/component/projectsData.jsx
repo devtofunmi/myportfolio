@@ -8,18 +8,14 @@ const theData = [
     link: "https://madewithchakra.netlify.app",
     gitlink: "https://github.com/devtofunmi/madewithchakra",
     description: "Showcase websites made with Chakra UI",
-    tool: "React",
-    toolss: "Chakra",
-    // tags: [<SiReact />],
+    tools: ["React", "Chakra"],
   },
   {
     name: "Cryppto",
-
     link: "https://cryppto.netlify.app",
     gitlink: "https://github.com/devtofunmi/crypto",
     description: "A live crytocurrency website",
-    tool: "React",
-    // tags: [<SiReact />],
+    tools: ["React"],
   },
 
   {
@@ -28,8 +24,7 @@ const theData = [
     link: "https://gppt.netlify.app",
     gitlink: "https://github.com/devtofunmi/gpt",
     description: "GPT3 landing page replica",
-    tool: "React",
-    // tags: [<SiReact />],
+    tools: ["React"],
   },
   {
     logo: "",
@@ -37,8 +32,7 @@ const theData = [
     link: "https://easybannk.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "Easy Bank Landing Page replica",
-    tool: "React",
-    // tags: [<SiReact />],
+    tools: ["React"],
   },
   {
     logo: "",
@@ -46,8 +40,7 @@ const theData = [
     link: "https://coiinsearch.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of a coiinsearch website i saw on youtube",
-    tool: "React",
-    // tags: [<SiReact />],
+    tools: ["React"],
   },
   {
     logo: "",
@@ -55,10 +48,7 @@ const theData = [
     link: "https://bnnnb.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of staybnb website",
-    tool: "Javascript",
-    tools: "Html",
-    toolss: "Css",
-    // tags: [<SiCss3 />, <SiJavascript />, <SiHtml5 />],
+    tools: ["Javascript", "Html", "Css"],
   },
   {
     logo: "",
@@ -66,9 +56,7 @@ const theData = [
     link: "https://hudd.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "Huddle landing page replica",
-    tool: "Html",
-    toolss: "Css",
-    // tags: [<SiCss3 />, <SiHtml5 />],
+    tools: ["Html", "Css"],
   },
   {
     logo: "",
@@ -76,10 +64,7 @@ const theData = [
     link: "https://flytoo.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of staybnb homepage",
-    tools: "Html",
-    toolss: "Css",
-    tool: "Sass",
-    // tags: [<SiCss3 />, <SiSass />, <SiHtml5 />],
+    tools: ["Sass", "Html", "Css"],
   },
 ];
 
