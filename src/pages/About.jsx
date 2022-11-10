@@ -26,11 +26,6 @@ const About = () => {
             building projects using React and Chakra,I started learning web
             development in August 2021.
           </Text>
-          {/* <Text>
-            I create websites when I have free time after school. When not busy
-            with doing projects and schoolworks, I try to how to play a guitar,
-            and does exercise every other day at night.
-          </Text> */}
         </Box>
 
         <Box mt={"30px"}>
@@ -46,22 +41,13 @@ const About = () => {
             Here is a list of technologies that I have worked with.
           </Text>
         </Box>
-        {/* <Flex>
-          <Text fontSize={25} fontWeight={500}>
-            Tools I use
-          </Text>
-          <Img
-            width={"40px"}
-            src="https://media.giphy.com/media/2Y8WL0eWZDNIFRoQbO/giphy.gif"
-          />
-        </Flex> */}
+
         <Flex
           mt={"20px"}
           fontSize="20px"
           flexWrap={"wrap"}
           gap={["30px", "50px"]}
           justifyContent={"space-between"}
-          // w={"500px"}
         >
           {StackIcons.map(({ name, icon }) => (
             <Flex gap={"5px"} alignItems={"center"}>
