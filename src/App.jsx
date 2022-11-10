@@ -11,7 +11,7 @@ function App() {
   }, []);
   return (
     <>
-      <Box w={"100%"} minH={"100vh"} bg={"#10161d"} color={"white"}>
+      <Box w={"100%"} minH={"100vh"} bg={"black"} color={"white"}>
         <Router>
           <Routes>
             <Route path="/" element={<Homepage />} />
