@@ -11,6 +11,7 @@ import {
   Img,
   Center,
   Tag,
+  Text,
 } from "@chakra-ui/react";
 import theData from "../component/projectsData";
 import { RiGithubLine } from "react-icons/ri";
@@ -29,16 +30,14 @@ const Project = () => {
         flexDirection="column"
         mt={10}
       >
-        {/* <Img src="https://media.giphy.com/media/DCBuTtOtzhrGK5sdNv/giphy.gif" /> */}
         <Flex>
           <Flex fontSize={["30px", "40px"]} fontWeight={500}>
-            Projects I've built 📚
+            Projects I've built
+            <Img
+              width={"50px"}
+              src="https://media.giphy.com/media/3o7WTQcjUp6JnP7s52/giphy.gif"
+            />
           </Flex>
-
-          {/* <Img
-            width={"40px"}
-            src="https://media.giphy.com/media/ehC4SqtNcEeLAiu66w/giphy.gif"
-          /> */}
         </Flex>
         {theData.map(
           ({
@@ -56,56 +55,40 @@ const Project = () => {
           }) => (
             <Box
               key={id}
-              bg={"transparent"}
+              bg={"#1c1c1c"}
               cursor="pointer"
               borderRadius={"md"}
+              my={"20px"}
+              p={"30px"}
+              w={"500px"}
               _hover={{
                 background:
                   "linear-gradient(to left, #b90de0 0%, #3363a5 100%)",
               }}
             >
-              <Accordion
-                border="1px"
-                my={10}
-                defaultIndex={[0]}
-                allowMultiple
-                borderRadius="5px"
-                data-aos="fade-up"
-              >
-                <AccordionItem>
-                  <h2>
-                    <AccordionButton>
-                      <Box
-                        flex="1"
-                        textAlign="left"
-                        fontSize={20}
-                        fontWeight={600}
-                      >
-                        {name}
-                      </Box>
-                      <AccordionIcon />
-                    </AccordionButton>
-                  </h2>
-                  <AccordionPanel pb={4}>{description}</AccordionPanel>
-                  <Flex gap={"7px"} ml={"10px"} mb={"10px"}>
-                    <Tag bg={"blue"}>{tools} </Tag>
-                    <Tag bg={"red"}>{tool} </Tag>
-                    <Tag bg={"green"}>{toolss} </Tag>
-
-                    {/* {tags.map((tag, i) => { */}
-                    {/* <Tag key={i}>{tag}</Tag>; */}
-                    {/* })} */}
-                  </Flex>
-                  <Flex ml="10px" mb={5} gap="5px">
-                    <a href={link} target="blank">
-                      <BsLink45Deg fontSize={25} />
-                    </a>
-                    <a href={gitlink} target="blank">
-                      <RiGithubLine fontSize={25} />
+              <Box fontSize={"30px"} fontWeight={600}>
+                <Flex justifyContent={"space-between"}>
+                  <Flex alignItems={"center"}>
+                    <Text>{name}</Text>
+                    <a href={link}>
+                      <BsLink45Deg />
                     </a>
                   </Flex>
-                </AccordionItem>
-              </Accordion>
+                  <Box>
+                    <a href={gitlink}>
+                      <RiGithubLine />
+                    </a>
+                  </Box>
+                </Flex>
+              </Box>
+              <Flex mt={"5px"} fontSize={"20px"} gap={"20px"} fontSize={"15px"}>
+                <Text my={"10px"}>{tool}</Text>
+                <Text my={"10px"}>{tools}</Text>
+                <Text my={"10px"}>{toolss}</Text>
+                {/* <Text>{tools}</Text>
+                <Text>{toolss}</Text> */}
+              </Flex>
+              <Text mt={"5px"}>{description}</Text>
             </Box>
           )
         )}
