@@ -39,7 +39,12 @@ const Homepage = () => {
         m="auto"
         flexDirection="column"
       >
-        <Flex mt={"50px"} gap={"40px"} flexDirection="row" alignItems="center">
+        <Flex
+          mt={"50px"}
+          gap={"40px"}
+          flexDirection={["column", "row"]}
+          alignItems="center"
+        >
           <Box
             w={"400px"}
             height={"200px"}
@@ -71,7 +76,9 @@ const Homepage = () => {
           </Box>
         </Flex>
         <Box mt={"70px"} textAlign={"center"}>
-          <Text fontSize={"40px"}>Who am I? 🤔</Text>
+          <Text fontSize={"40px"} fontWeight={500}>
+            Who am I? 🤔
+          </Text>
           <Text mt={"20px"}>
             Hi! I'm Tofunmi. I am an aspiring Web developer You probably saw me
             on Twitter tweeting about 100 Days of Code, or maybe you just saw me
