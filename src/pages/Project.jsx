@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../component/Navbar";
-import { Box, Flex, Img, Center, Text } from "@chakra-ui/react";
+import { Box, Flex, Img, Center, Text, Tag } from "@chakra-ui/react";
 import theData from "../component/projectsData";
 import { RiGithubLine } from "react-icons/ri";
 import { BsLink45Deg } from "react-icons/bs";
@@ -36,10 +36,8 @@ const Project = () => {
             tags,
             gitlink,
             description,
-            tool,
+
             tools,
-            toolss,
-            image,
           }) => (
             <Box
               key={id}
@@ -70,9 +68,9 @@ const Project = () => {
                 </Flex>
               </Box>
               <Flex mt={"5px"} fontSize={"20px"} gap={"20px"} fontSize={"15px"}>
-                <Text my={"10px"}>{tool}</Text>
-                <Text my={"10px"}>{tools}</Text>
-                <Text my={"10px"}>{toolss}</Text>
+                {tools.map((t) => (
+                  <Tag>{t}</Tag>
+                ))}
               </Flex>
               <Text mt={"5px"}>{description}</Text>
             </Box>
