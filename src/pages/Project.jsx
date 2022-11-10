@@ -27,18 +27,18 @@ const Project = () => {
         w={["90%", "80%", "50%"]}
         m="auto"
         flexDirection="column"
-        mt={20}
+        mt={10}
       >
         {/* <Img src="https://media.giphy.com/media/DCBuTtOtzhrGK5sdNv/giphy.gif" /> */}
         <Flex>
-          <Flex fontSize={25} fontWeight={500}>
-            Projects I've built
+          <Flex fontSize={["30px", "40px"]} fontWeight={500}>
+            Projects I've built 📚
           </Flex>
 
-          <Img
+          {/* <Img
             width={"40px"}
             src="https://media.giphy.com/media/ehC4SqtNcEeLAiu66w/giphy.gif"
-          />
+          /> */}
         </Flex>
         {theData.map(
           ({
