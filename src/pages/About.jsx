@@ -11,15 +11,16 @@ const About = () => {
       </Center>
 
       <Flex
-        mt={20}
         align-items="center"
         justify-content="cener"
         w={["90%", "80%", "50%"]}
         m="auto"
         flexDirection="column"
       >
-        <Box>
-          <Text fontSize={"25px"}>About Me 👨‍💻</Text>
+        <Box mt={30}>
+          <Text fontSize={40} fontWeight={500}>
+            About Me 👨‍💻
+          </Text>
           <Text>
             I'm Olayiwola Jesutofunmi, an aspiring Web developer,I enjoy
             building projects using React and Chakra,I started learning web
@@ -32,7 +33,9 @@ const About = () => {
           </Text> */}
         </Box>
         <Box mt={"30px"}>
-          <Text fontSize={"25px"}>Tech Stack ⚡</Text>
+          <Text fontSize={40} fontWeight={500}>
+            Tech Stack ⚡
+          </Text>
           <Text mt={"10px"}>
             I love exploring new libraries, programing languages and frameworks.
             Here is a list of technologies that I have worked with.
