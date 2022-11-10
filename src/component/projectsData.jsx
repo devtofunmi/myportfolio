@@ -8,7 +8,7 @@ const theData = [
     link: "https://madewithchakra.netlify.app",
     gitlink: "https://github.com/devtofunmi/madewithchakra",
     description: "Showcase websites made with Chakra UI",
-    tools: "React",
+    tool: "React",
     toolss: "Chakra",
     // tags: [<SiReact />],
   },
@@ -18,7 +18,7 @@ const theData = [
     link: "https://cryppto.netlify.app",
     gitlink: "https://github.com/devtofunmi/crypto",
     description: "A live crytocurrency website",
-    tools: "React",
+    tool: "React",
     // tags: [<SiReact />],
   },
 
@@ -28,7 +28,7 @@ const theData = [
     link: "https://gppt.netlify.app",
     gitlink: "https://github.com/devtofunmi/gpt",
     description: "GPT3 landing page replica",
-    tools: "React",
+    tool: "React",
     // tags: [<SiReact />],
   },
   {
@@ -37,7 +37,7 @@ const theData = [
     link: "https://easybannk.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "Easy Bank Landing Page replica",
-    tools: "React",
+    tool: "React",
     // tags: [<SiReact />],
   },
   {
@@ -46,7 +46,7 @@ const theData = [
     link: "https://coiinsearch.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "A replica of a coiinsearch website i saw on youtube",
-    tools: "React",
+    tool: "React",
     // tags: [<SiReact />],
   },
   {
@@ -66,7 +66,7 @@ const theData = [
     link: "https://hudd.netlify.app",
     gitlink: "https://github.com/devtofunmi",
     description: "Huddle landing page replica",
-    tools: "Html",
+    tool: "Html",
     toolss: "Css",
     // tags: [<SiCss3 />, <SiHtml5 />],
   },
