@@ -80,7 +80,7 @@ const Homepage = () => {
           </Flex>
           <Box mt={5} mb={10}>
             <Flex fontSize={20} alignItems="center" direction={"row"}>
-              <a href="https://www.twitter.com/codebreak_er" target="blank">
+              <a href="https://www.twitter.com/codebreak_er" target="_blank">
                 <Code colorScheme="grey" children="<> Twitter </>" />
               </a>
             </Flex>
@@ -89,7 +89,7 @@ const Homepage = () => {
             </Text>
 
             <Flex mt="10px" fontSize={20} alignItems="center">
-              <a href="https://wa.me/09072905477" target="blank">
+              <a href="https://wa.me/09072905477" target="_blank">
                 <Code colorScheme="grey" children="<> Whatsapp </>" />
               </a>
             </Flex>
