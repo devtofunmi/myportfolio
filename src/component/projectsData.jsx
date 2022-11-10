@@ -1,12 +1,11 @@
 import { Img } from "@chakra-ui/react";
 import { SiHtml5, SiReact, SiJavascript, SiCss3, SiSass } from "react-icons/si";
-import jj from "../assets/gpt.png";
 
 const theData = [
   {
     logo: "../assets/gpt.png",
     name: "Cryppto",
-    image: <Img src={jj} />,
+
     link: "https://cryppto.netlify.app",
     gitlink: "https://github.com/devtofunmi/crypto",
     description: "A live crytocurrency website",
