@@ -60,7 +60,7 @@ const Project = () => {
               borderRadius={"md"}
               my={"20px"}
               p={"30px"}
-              w={"500px"}
+              w={["350px", "500px"]}
               _hover={{
                 background:
                   "linear-gradient(to left, #b90de0 0%, #3363a5 100%)",
