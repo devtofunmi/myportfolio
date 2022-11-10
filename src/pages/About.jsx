@@ -32,10 +32,15 @@ const About = () => {
             and does exercise every other day at night.
           </Text> */}
         </Box>
+
         <Box mt={"30px"}>
-          <Text fontSize={40} fontWeight={500}>
-            Tech Stack ⚡
-          </Text>
+          <Flex fontSize={40} fontWeight={500}>
+            Tech Stack
+            <Img
+              width={"50px"}
+              src="https://media.giphy.com/media/3osxY5srzVZrwq3cFq/giphy.gif"
+            />
+          </Flex>
           <Text mt={"10px"}>
             I love exploring new libraries, programing languages and frameworks.
             Here is a list of technologies that I have worked with.
@@ -50,7 +55,14 @@ const About = () => {
             src="https://media.giphy.com/media/2Y8WL0eWZDNIFRoQbO/giphy.gif"
           />
         </Flex> */}
-        <Flex mt={"20px"} fontSize="20px" flexWrap={"wrap"} gap={"50px"}>
+        <Flex
+          mt={"20px"}
+          fontSize="20px"
+          flexWrap={"wrap"}
+          gap={"30px"}
+          justifyContent={"center"}
+          w={"500px"}
+        >
           {StackIcons.map(({ name, icon }) => (
             <Flex gap={"5px"}>
               <Text>{icon}</Text>
