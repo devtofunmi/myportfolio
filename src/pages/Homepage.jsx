@@ -76,9 +76,13 @@ const Homepage = () => {
           </Box>
         </Flex>
         <Box mt={"70px"} textAlign={"center"}>
-          <Text fontSize={"40px"} fontWeight={500}>
-            Who am I? 🤔
-          </Text>
+          <Flex fontSize={"40px"} fontWeight={500}>
+            Who am I?
+            <Img
+              width={"50px"}
+              src="https://media.giphy.com/media/4p1JhLCYEOEJa/giphy.gif"
+            />
+          </Flex>
           <Text mt={"20px"}>
             Hi! I'm Tofunmi. I am an aspiring Web developer You probably saw me
             on Twitter tweeting about 100 Days of Code, or maybe you just saw me
