@@ -1,32 +1,17 @@
 import {
-  Accordion,
-  AccordionButton,
-  AccordionItem,
   Box,
-  Button,
   Flex,
   Text,
   useColorMode,
-  AccordionPanel,
-  AccordionIcon,
   Img,
   Center,
   Code,
-  Tag,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 
-import { BsLink45Deg } from "react-icons/bs";
-import { RiGithubLine } from "react-icons/ri";
-
-import theData from "../component/projectsData";
-import StackIcons from "../component/StackIcons";
 import jay from "../assets/jay.png";
 import Navbar from "../component/Navbar";
 const Homepage = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
-  const [isDark, setIsDark] = useState(true);
-
   return (
     <>
       <Center>
@@ -96,11 +81,7 @@ const Homepage = () => {
           <Box mt={5} mb={10}>
             <Flex fontSize={20} alignItems="center" direction={"row"}>
               <a href="https://www.twitter.com/codebreak_er" target="blank">
-                <Code
-                  // fontSize={20}
-                  colorScheme="grey"
-                  children="<> Twitter </>"
-                />
+                <Code colorScheme="grey" children="<> Twitter </>" />
               </a>
             </Flex>
             <Text textColor="#81AFDD">
@@ -109,11 +90,7 @@ const Homepage = () => {
 
             <Flex mt="10px" fontSize={20} alignItems="center">
               <a href="https://wa.me/09072905477" target="blank">
-                <Code
-                  // fontSize={20}
-                  colorScheme="grey"
-                  children="<> Whatsapp </>"
-                />
+                <Code colorScheme="grey" children="<> Whatsapp </>" />
               </a>
             </Flex>
             <Text textColor="#81AFDD">Message me let's chat</Text>
