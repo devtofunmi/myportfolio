@@ -15,7 +15,6 @@ import {
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { RiGithubLine } from "react-icons/ri";
-import { Box, Flex, Tag, TagRightIcon, Text } from "@chakra-ui/react";
 
 const StackIcons = [
   {
