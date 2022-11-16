@@ -2,6 +2,7 @@ import { Box, Center, Flex, Img, Text } from "@chakra-ui/react";
 import React from "react";
 import Navbar from "../component/Navbar";
 import StackIcons from "../component/StackIcons";
+import jp from "../assets/ppp.png";
 
 const About = () => {
   return (
@@ -17,6 +18,9 @@ const About = () => {
         m="auto"
         flexDirection="column"
       >
+        <Center w={"350px"}>
+          <Img src={jp} />
+        </Center>
         <Box mt={30}>
           <Text fontSize={40} fontWeight={500}>
             About Me 👨‍💻
@@ -24,7 +28,7 @@ const About = () => {
           <Text>
             I'm Olayiwola Jesutofunmi, an aspiring Web developer,I enjoy
             building projects using React and Chakra,I started learning web
-            development in August 2021.
+            development in November 2021.
           </Text>
         </Box>
 
@@ -48,6 +52,7 @@ const About = () => {
           flexWrap={"wrap"}
           gap={["30px", "50px"]}
           justifyContent={"space-between"}
+          mb={"10px"}
         >
           {StackIcons.map(({ name, icon }) => (
             <Flex gap={"5px"} alignItems={"center"}>
