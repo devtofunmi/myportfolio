@@ -26,14 +26,14 @@ const theData = [
     description: "GPT3 landing page replica",
     tools: ["React"],
   },
-  {
-    logo: "",
-    name: "Easybank",
-    link: "https://easybannk.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "Easy Bank Landing Page replica",
-    tools: ["React"],
-  },
+  // {
+  //   logo: "",
+  //   name: "Easybank",
+  //   link: "https://easybannk.netlify.app",
+  //   gitlink: "https://github.com/devtofunmi",
+  //   description: "Easy Bank Landing Page replica",
+  //   tools: ["React"],
+  // },
   {
     logo: "",
     name: "Coiinsearch",
