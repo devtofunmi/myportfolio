@@ -50,14 +50,14 @@ const theData = [
     description: "A replica of staybnb website",
     tools: ["Javascript", "Html", "Css"],
   },
-  {
-    logo: "",
-    name: "Huddle",
-    link: "https://hudd.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "Huddle landing page replica",
-    tools: ["Html", "Css"],
-  },
+  // {
+  //   logo: "",
+  //   name: "Huddle",
+  //   link: "https://hudd.netlify.app",
+  //   gitlink: "https://github.com/devtofunmi",
+  //   description: "Huddle landing page replica",
+  //   tools: ["Html", "Css"],
+  // },
   {
     logo: "",
     name: "Flytoo",
