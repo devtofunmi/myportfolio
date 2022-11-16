@@ -2,7 +2,7 @@ import { Box, Center, Flex, Img, Text } from "@chakra-ui/react";
 import React from "react";
 import Navbar from "../component/Navbar";
 import StackIcons from "../component/StackIcons";
-import jp from "../assets/ppp.png";
+import jp from "../assets/p.png";
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
         <Center w={"350px"}>
           <Img src={jp} />
         </Center>
-        <Box mt={30}>
+        <Box>
           <Text fontSize={40} fontWeight={500}>
             About Me 👨‍💻
           </Text>
