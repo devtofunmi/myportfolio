@@ -18,10 +18,10 @@ const About = () => {
         m="auto"
         flexDirection="column"
       >
-        <Center w={"350px"}>
+        {/* <Center w={"350px"}>
           <Img src={jp} />
-        </Center>
-        <Box>
+        </Center> */}
+        <Box mt={"30px"}>
           <Text fontSize={40} fontWeight={500}>
             About Me 👨‍💻
           </Text>
