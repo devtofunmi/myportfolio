@@ -17,6 +17,7 @@ const Project = () => {
         m="auto"
         flexDirection="column"
         mt={10}
+        pb={"10px"}
       >
         <Flex>
           <Flex fontSize={["30px", "40px"]} fontWeight={500}>
