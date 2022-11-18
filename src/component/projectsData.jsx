@@ -58,14 +58,14 @@ const theData = [
   //   description: "Huddle landing page replica",
   //   tools: ["Html", "Css"],
   // },
-  {
-    logo: "",
-    name: "Flytoo",
-    link: "https://flytoo.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "A replica of staybnb homepage",
-    tools: ["Sass", "Html", "Css"],
-  },
+  // {
+  //   logo: "",
+  //   name: "Flytoo",
+  //   link: "https://flytoo.netlify.app",
+  //   gitlink: "https://github.com/devtofunmi",
+  //   description: "A replica of staybnb homepage",
+  //   tools: ["Sass", "Html", "Css"],
+  // },
 ];
 
 export default theData;
