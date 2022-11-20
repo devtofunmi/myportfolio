@@ -10,8 +10,6 @@ import {
 import React, { useState } from "react";
 
 import jay from "../assets/jay.png";
-import About from "../component/About";
-import Navbar from "../component/Navbar";
 import Project from "../component/Project";
 import TechStack from "../component/TechStack";
 const Homepage = () => {
