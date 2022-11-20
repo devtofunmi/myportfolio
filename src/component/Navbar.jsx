@@ -11,7 +11,7 @@ const Navbar = () => {
       borderRadius={"30px"}
     >
       <Flex justifyContent={"center"} gap={"20px"}>
-        <Link to={"/"} mt={"20px"}>
+        <Box>
           <Text
             _hover={{
               color: "#81AFDD",
@@ -19,8 +19,8 @@ const Navbar = () => {
           >
             Homepage
           </Text>
-        </Link>
-        <Link to={"/devtofunmi/project"} mt={"20px"}>
+        </Box>
+        <Box>
           <Text
             _hover={{
               color: "#81AFDD",
@@ -28,8 +28,8 @@ const Navbar = () => {
           >
             Project
           </Text>
-        </Link>
-        <Link to={"/devtofunmi/about"} mt={"20px"}>
+        </Box>
+        <Box>
           <Text
             _hover={{
               color: "#81AFDD",
@@ -37,7 +37,7 @@ const Navbar = () => {
           >
             About
           </Text>
-        </Link>
+        </Box>
       </Flex>
     </Box>
   );
