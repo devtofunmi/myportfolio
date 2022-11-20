@@ -10,16 +10,19 @@ import {
 import React, { useState } from "react";
 
 import jay from "../assets/jay.png";
+import About from "../component/About";
 import Navbar from "../component/Navbar";
+import Project from "../component/Project";
+import TechStack from "../component/TechStack";
 const Homepage = () => {
   return (
     <>
-      <Center>
+      {/* <Center>
         <Navbar />
-      </Center>
+      </Center> */}
       <Flex
         align-items="center"
-        justify-content="cener"
+        justify-content="center"
         w={["90%", "80%", "50%"]}
         m="auto"
         flexDirection="column"
@@ -34,7 +37,7 @@ const Homepage = () => {
             <Img w={["190px", "350px"]} src={jay} />
           </Box>
           <Box>
-            <Flex>
+            <Flex mt={"20px"}>
               <Text fontSize={40} fontWeight={600}>
                 Tofunmi
               </Text>
@@ -47,14 +50,14 @@ const Homepage = () => {
             <Text mt={5} textColor="#81AFDD">
               Frontend Developer 💨
             </Text>
-            <Text mt={5}>
+            <Text mt={5} fontSize={"20px"}>
               I'm a frontend developer,my expertise is in the area of responsive
               design,i strive to make the web a beautiful place with every line
               of code.
             </Text>
           </Box>
         </Flex>
-        <Box mt={"70px"} textAlign={"left"}>
+        {/* <Box mt={"70px"} textAlign={"left"}>
           <Flex fontSize={"40px"} fontWeight={500}>
             Who am I?
             <Img
@@ -67,6 +70,12 @@ const Homepage = () => {
             on Twitter tweeting about 100 Days of Code, or maybe you just saw me
             randomly on the internet.
           </Text>
+        </Box> */}
+        <Box>
+          <TechStack />
+        </Box>
+        <Box>
+          <Project />
         </Box>
         <Box mt={"30px"}>
           <Flex>
