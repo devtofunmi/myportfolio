@@ -15,9 +15,9 @@ import TechStack from "../component/TechStack";
 const Homepage = () => {
   return (
     <>
-      {/* <Center>
+      <Center>
         <Navbar />
-      </Center> */}
+      </Center>
       <Flex
         align-items="center"
         justify-content="center"
