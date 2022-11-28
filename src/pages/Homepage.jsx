@@ -45,9 +45,9 @@ const Homepage = () => {
               />
             </Flex>
 
-            <Text mt={5} textColor="#81AFDD">
+            {/* <Text mt={5} textColor="#81AFDD">
               Frontend Developer 💨
-            </Text>
+            </Text> */}
             <Text mt={5} fontSize={"20px"}>
               I'm a frontend developer,my expertise is in the area of responsive
               design,i strive to make the web a beautiful place with every line
