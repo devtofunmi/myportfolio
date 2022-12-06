@@ -23,7 +23,7 @@ const StackIcons = [
     icon: <SiReact />,
   },
   {
-    name: "Sass",
+    name: "SASS",
     icon: <SiSass />,
   },
   {
