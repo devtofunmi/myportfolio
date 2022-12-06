@@ -88,7 +88,7 @@ const StackIcons = [
   //   ),
   // },
   {
-    name: "Tailwind Css",
+    name: "Tailwind CSS",
     icon: <SiTailwindcss />,
   },
 ];
