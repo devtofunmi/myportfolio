@@ -71,7 +71,7 @@ const StackIcons = [
     icon: <SiFontawesome />,
   },
   {
-    name: "Css",
+    name: "CSS",
     icon: <SiCss3 />,
   },
   {
