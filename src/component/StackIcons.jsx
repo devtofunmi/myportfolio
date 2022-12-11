@@ -39,7 +39,7 @@ const StackIcons = [
     icon: <SiFigma />,
   },
   {
-    name: "Chakra",
+    name: "Chakra Ui",
     icon: <SiChakraui />,
   },
   {
