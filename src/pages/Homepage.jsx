@@ -49,9 +49,12 @@ const Homepage = () => {
               Frontend Developer 💨
             </Text>
             <Text mt={5} fontSize={"20px"}>
-              I'm a frontend developer,my expertise is in the area of responsive
+              {/* I'm a frontend developer,my expertise is in the area of responsive
               design,i strive to make the web a beautiful place with every line
-              of code.
+              of code. */}
+              I'm a frontend developer, I am dedicated to constantly improving
+              my skills and staying up-to-date with the latest technologies and
+              industry best practices.
             </Text>
           </Box>
         </Flex>
