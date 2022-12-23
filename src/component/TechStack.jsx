@@ -2,8 +2,7 @@ import { Box, Center, Flex, Img, Text } from "@chakra-ui/react";
 import React from "react";
 import Navbar from "./Navbar";
 import StackIcons from "./StackIcons";
-import jp from "../assets/p.png";
-
+  
 const TechStack = () => {
   return (
     <>
@@ -18,7 +17,7 @@ const TechStack = () => {
         </Center> */}
         {/* <Box mt={"30px"}>
           <Text fontSize={40} fontWeight={500}>
-            About Me 👨‍💻
+            About Me
           </Text>
           <Text>
             I'm Olayiwola Jesutofunmi, an aspiring Web developer,I enjoy
@@ -31,7 +30,8 @@ const TechStack = () => {
           <Flex fontSize={40} fontWeight={500}>
             Tech Stack
             <Img
-              width={"50px"}
+              width={"60px"}
+              height={"60px"}
               src="https://media.giphy.com/media/3osxY5srzVZrwq3cFq/giphy.gif"
             />
           </Flex>
@@ -50,7 +50,7 @@ const TechStack = () => {
           mb={"10px"}
         >
           {StackIcons.map(({ name, icon }) => (
-            <Flex gap={"5px"} alignItems={"center"}>
+            <Flex gap={2} alignItems={"center"} key={name}>
               <Text>{icon}</Text>
               <Text>{name}</Text>
             </Flex>

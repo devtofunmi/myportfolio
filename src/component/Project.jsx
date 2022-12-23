@@ -1,9 +1,9 @@
-import React from "react";
 import Navbar from "../component/Navbar";
 import { Box, Flex, Img, Center, Text, Tag } from "@chakra-ui/react";
 import theData from "../component/projectsData";
 import { RiGithubLine } from "react-icons/ri";
 import { BsLink45Deg } from "react-icons/bs";
+
 const Project = () => {
   return (
     <>
@@ -19,38 +19,29 @@ const Project = () => {
           <Flex fontSize={["30px", "40px"]} fontWeight={500}>
             Projects I've built
             <Img
-              width={"50px"}
+              width={"60px"}
+              height={"60px"}
               src="https://media.giphy.com/media/3o7WTQcjUp6JnP7s52/giphy.gif"
             />
           </Flex>
         </Flex>
         <Center></Center>
         {theData.map(
-          ({
-            logo,
-            name,
-            link,
-            id,
-            tags,
-            gitlink,
-            description,
-
-            tools,
-          }) => (
-            <Box
-              key={id}
+          ({ id, logo, name, link, tags, gitlink, description, tools }) => (
+            <Box key={id}
               bg={"#1c1c1c"}
               cursor="pointer"
               borderRadius={"md"}
               my={"20px"}
               p={"30px"}
               w={["350px", "500px"]}
+              bg={"#16213E"}
               _hover={{
                 background:
                   "linear-gradient(to left, #b90de0 0%, #3363a5 100%)",
               }}
             >
-              <Box fontSize={"30px"} fontWeight={600}>
+              <Box fontSize={22} fontWeight={700} overflowX={"scroll"}>
                 <Flex justifyContent={"space-between"}>
                   <Flex alignItems={"center"}>
                     <Text>{name}</Text>
@@ -65,7 +56,7 @@ const Project = () => {
                   </Box>
                 </Flex>
               </Box>
-              <Flex mt={"5px"} fontSize={"20px"} gap={"20px"} fontSize={"15px"}>
+              <Flex mt={"5px"} fontSize={"20px"} gap={"20px"}>
                 {tools.map((t) => (
                   <Tag>{t}</Tag>
                 ))}

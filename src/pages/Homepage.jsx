@@ -7,17 +7,13 @@ import {
   Center,
   Code,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
 
-import jay from "../assets/jay.png";
 import Project from "../component/Project";
 import TechStack from "../component/TechStack";
+
 const Homepage = () => {
   return (
     <>
-      {/* <Center>
-        <Navbar />
-      </Center> */}
       <Flex
         align-items="center"
         justify-content="center"
@@ -32,7 +28,7 @@ const Homepage = () => {
           alignItems={["left", "center"]}
         >
           <Box>
-            <Img w={["190px", "350px"]} src={jay} />
+            <Img w={["300px", "300px"]} borderRadius={5} src={"https://picsum.photos/300/300"} />
           </Box>
           <Box>
             <Flex mt={"20px"}>
@@ -40,7 +36,8 @@ const Homepage = () => {
                 Tofunmi
               </Text>
               <Img
-                width={"50px"}
+                width={"60px"}
+                height={"60px"}
                 src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
               />
             </Flex>
@@ -49,9 +46,6 @@ const Homepage = () => {
               Frontend Developer 💨
             </Text>
             <Text mt={5} fontSize={"20px"}>
-              {/* I'm a frontend developer,my expertise is in the area of responsive
-              design,i strive to make the web a beautiful place with every line
-              of code. */}
               I'm a frontend developer, I am dedicated to constantly improving
               my skills and staying up-to-date with the latest technologies and
               industry best practices.
@@ -80,18 +74,19 @@ const Homepage = () => {
         </Box>
         <Box mt={"30px"}>
           <Flex>
-            <Text fontSize={25} fontWeight={500}>
+            <Text fontSize={25} fontWeight={600}>
               Let's Connect
             </Text>
             <Img
-              width={"40px"}
+              width={"60px"}
+              height={"60px"}
               src="https://media.giphy.com/media/ukSqaH6XYVuU0XuBI6/giphy.gif"
             />
           </Flex>
           <Box mt={5} mb={10}>
             <Flex fontSize={20} alignItems="center" direction={"row"}>
               <a href="https://www.twitter.com/codebreak_er" target="_blank">
-                <Code colorScheme="grey" children="<> Twitter </>" />
+                <Code fontFamily={"Unbounded"} colorScheme="grey" children="<> Twitter </>" />
               </a>
             </Flex>
             <Text textColor="#81AFDD">
@@ -100,7 +95,7 @@ const Homepage = () => {
 
             <Flex mt="10px" fontSize={20} alignItems="center">
               <a href="https://wa.me/09072905477" target="_blank">
-                <Code colorScheme="grey" children="<> Whatsapp </>" />
+                <Code fontFamily={"Unbounded"} colorScheme="grey" children="<> Whatsapp </>" />
               </a>
             </Flex>
             <Text textColor="#81AFDD">Message me let's chat</Text>
