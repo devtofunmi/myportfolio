@@ -63,7 +63,7 @@ const theData = [
     name: "Flytoo",
     link: "https://flytoo.netlify.app",
     gitlink: "https://github.com/devtofunmi",
-    description: "A replica of staybnb homepage",
+    description: "A challenge on frontend mentor",
     tools: ["Sass", "Html", "Css"],
   },
 ];
