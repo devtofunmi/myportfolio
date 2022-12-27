@@ -99,6 +99,13 @@ const Homepage = () => {
             </Text>
 
             <Flex mt="10px" fontSize={20} alignItems="center">
+              <a href="https://github.com/devtofunmi" target="_blank">
+                <Code colorScheme="grey" children="<> Github </>" />
+              </a>
+            </Flex>
+            <Text textColor="#81AFDD">Check out my Github profile</Text>
+
+            <Flex mt="10px" fontSize={20} alignItems="center">
               <a href="https://wa.me/09072905477" target="_blank">
                 <Code colorScheme="grey" children="<> Whatsapp </>" />
               </a>
