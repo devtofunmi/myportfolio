@@ -3,6 +3,14 @@ import { SiHtml5, SiReact, SiJavascript, SiCss3, SiSass } from "react-icons/si";
 
 const theData = [
   {
+    name: "PrettyBio",
+
+    link: "https://prettybio.netlify.app",
+    gitlink: "https://github.com/devtofunmi/prettybio",
+    description: "Create stunning, personalized bio pages with ease.",
+    tools: ["Next", "Tailwind", "Supabase", "Cloudinary", "React Icon"],
+  },
+  {
     name: "Madewithchakra",
 
     link: "https://madewithchakra.netlify.app",
