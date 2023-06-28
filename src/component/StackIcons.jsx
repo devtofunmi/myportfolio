@@ -19,62 +19,72 @@ import { SiTailwindcss } from "react-icons/si";
 
 const StackIcons = [
   {
+    id: 1,
     name: "React",
     icon: <SiReact />,
   },
   {
+    id: 2,
     name: "SASS",
     icon: <SiSass />,
   },
   {
+    id: 3,
     name: "Next JS",
     icon: <TbBrandNextjs />,
   },
   {
+    id: 4,
     name: "Javascript",
     icon: <SiJavascript />,
   },
   {
+    id: 5,
     name: "Figma",
     icon: <SiFigma />,
   },
   {
+    id: 6,
     name: "Chakra Ui",
     icon: <SiChakraui />,
   },
   {
+    id: 7,
     name: "Git",
     icon: <SiGit />,
   },
   {
+    id: 8,
     name: "Github",
     icon: <RiGithubLine />,
   },
+  // {
+  //   name: "Netlify",
+  //   icon: <SiNetlify />,
+  // },
+  // {
+  //   name: "Visual Studio",
+  //   icon: <SiVisualstudio />,
+  // },
+  // {
+  //   name: "Npm",
+  //   icon: <SiNpm />,
+  // },
+  // {
+  //   name: "Yarn",
+  //   icon: <SiYarn />,
+  // },
+  // {
+  //   name: "Fontawersome",
+  //   icon: <SiFontawesome />,
+  // },
   {
-    name: "Netlify",
-    icon: <SiNetlify />,
-  },
-  {
-    name: "Visual Studio",
-    icon: <SiVisualstudio />,
-  },
-  {
-    name: "Npm",
-    icon: <SiNpm />,
-  },
-  {
-    name: "Yarn",
-    icon: <SiYarn />,
-  },
-  {
-    name: "Fontawersome",
-    icon: <SiFontawesome />,
-  },
-  {
+    id: 9,
     name: "CSS",
     icon: <SiCss3 />,
   },
   {
+    id: 10,
     name: "Html",
     icon: <SiHtml5 />,
   },
