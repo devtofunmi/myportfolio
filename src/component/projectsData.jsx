@@ -3,6 +3,7 @@ import { SiHtml5, SiReact, SiJavascript, SiCss3, SiSass } from "react-icons/si";
 
 const theData = [
   {
+    id: 1,
     name: "PrettyBio",
 
     link: "https://prettybio.netlify.app",
@@ -11,6 +12,7 @@ const theData = [
     tools: ["Next", "Tailwind", "Supabase", "Cloudinary", "React Icon"],
   },
   {
+    id: 2,
     name: "Madewithchakra",
 
     link: "https://madewithchakra.netlify.app",
@@ -18,15 +20,26 @@ const theData = [
     description: "Showcase websites made with Chakra UI",
     tools: ["React", "Chakra"],
   },
+  // {
+  //   name: "Cryppto",
+  //   link: "https://cryppto.netlify.app",
+  //   gitlink: "https://github.com/devtofunmi/crypto",
+  //   description: "A live crytocurrency website",
+  //   tools: ["React"],
+  // },
+
   {
-    name: "Cryppto",
-    link: "https://cryppto.netlify.app",
-    gitlink: "https://github.com/devtofunmi/crypto",
-    description: "A live crytocurrency website",
+    id: 3,
+    logo: "",
+    name: "Coiinsearch",
+    link: "https://coiinsearch.netlify.app",
+    gitlink: "https://github.com/devtofunmi",
+    description: "Your Gateway to Real-Time Coin Data",
     tools: ["React"],
   },
 
   {
+    id: 4,
     logo: "",
     name: "Gppt",
     link: "https://gppt.netlify.app",
@@ -42,15 +55,9 @@ const theData = [
   //   description: "Easy Bank Landing Page replica",
   //   tools: ["React"],
   // },
+
   {
-    logo: "",
-    name: "Coiinsearch",
-    link: "https://coiinsearch.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "A replica of a coiinsearch website i saw on youtube",
-    tools: ["React"],
-  },
-  {
+    id: 5,
     logo: "",
     name: "Stay Bnb",
     link: "https://bnnnb.netlify.app",
@@ -66,14 +73,14 @@ const theData = [
   //   description: "Huddle landing page replica",
   //   tools: ["Html", "Css"],
   // },
-  {
-    logo: "",
-    name: "Flytoo",
-    link: "https://flytoo.netlify.app",
-    gitlink: "https://github.com/devtofunmi",
-    description: "A challenge on frontend mentor",
-    tools: ["Sass", "Html", "Css"],
-  },
+  // {
+  //   logo: "",
+  //   name: "Flytoo",
+  //   link: "https://flytoo.netlify.app",
+  //   gitlink: "https://github.com/devtofunmi",
+  //   description: "A challenge on frontend mentor",
+  //   tools: ["Sass", "Html", "Css"],
+  // },
 ];
 
 export default theData;
