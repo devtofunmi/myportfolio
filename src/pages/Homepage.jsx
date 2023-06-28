@@ -52,7 +52,7 @@ const Homepage = () => {
               {/* I'm a frontend developer,my expertise is in the area of responsive
               design,i strive to make the web a beautiful place with every line
               of code. */}
-              I am a frontend developer, perpetually
+              Perpetually
               evolving my skills and embracing the latest technologies and
               industry standards.
             </Text>
