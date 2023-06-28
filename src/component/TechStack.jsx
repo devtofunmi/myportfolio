@@ -49,8 +49,8 @@ const TechStack = () => {
           justifyContent={"space-between"}
           mb={"10px"}
         >
-          {StackIcons.map(({ name, icon }) => (
-            <Flex gap={"5px"} alignItems={"center"}>
+          {StackIcons.map(({ name, icon,id }) => (
+            <Flex gap={"5px"} alignItems={"center"} key={id}>
               <Text>{icon}</Text>
               <Text>{name}</Text>
             </Flex>
