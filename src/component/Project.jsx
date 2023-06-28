@@ -44,13 +44,13 @@ const Project = () => {
               borderRadius={"md"}
               my={"20px"}
               p={"30px"}
-              w={["350px", "500px"]}
+              // w={["300px","400px", "500px"]}
               _hover={{
                 background:
                   "linear-gradient(to left, #b90de0 0%, #3363a5 100%)",
               }}
             >
-              <Box fontSize={"30px"} fontWeight={600}>
+              <Box fontSize={["22px","30px"]} fontWeight={600}>
                 <Flex justifyContent={"space-between"}>
                   <Flex alignItems={"center"}>
                     <Text>{name}</Text>
@@ -65,7 +65,7 @@ const Project = () => {
                   </Box>
                 </Flex>
               </Box>
-              <Flex mt={"5px"} fontSize={"20px"} gap={"20px"} fontSize={"15px"}>
+              <Flex mt={"5px"} fontSize={"20px"} gap={"10px"} flexWrap={"wrap"}>
                 {tools.map((t) => (
                   <Tag>{t}</Tag>
                 ))}
