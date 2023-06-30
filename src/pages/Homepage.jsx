@@ -12,6 +12,7 @@ import React, { useState } from "react";
 import jay from "../assets/jay.png";
 import Project from "../component/Project";
 import TechStack from "../component/TechStack";
+import About from "../component/About";
 const Homepage = () => {
   return (
     <>
@@ -52,9 +53,8 @@ const Homepage = () => {
               {/* I'm a frontend developer,my expertise is in the area of responsive
               design,i strive to make the web a beautiful place with every line
               of code. */}
-              Perpetually
-              evolving my skills and embracing the latest technologies and
-              industry standards.
+              Perpetually evolving my skills and embracing the latest
+              technologies and industry standards.
             </Text>
           </Box>
         </Flex>
@@ -72,6 +72,9 @@ const Homepage = () => {
             randomly on the internet.
           </Text>
         </Box> */}
+        <Box>
+          <About />
+        </Box>
         <Box>
           <TechStack />
         </Box>
