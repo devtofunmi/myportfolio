@@ -14,13 +14,15 @@ const About = () => {
       <Flex fontSize={40} fontWeight={500}>
         About Me 👨‍💻
       </Flex>
-      <Text fontSize={"20px"} mt={"20px"}>
-        Experienced frontend developer skilled in building responsive and
-        user-friendly websites. Proficient in HTML, CSS, JavaScript, React,
-        Chakra UI, Tailwind CSS and Next js. Constantly updating skills with the
-        latest technologies and best practices. Utilizes Supabase, Git, and
-        GitHub for efficient development. Committed to delivering exceptional
-        results.
+      <Text fontSize={"19px"} mt={"20px"}>
+        Hi! I'm Olayiwola Jesutofunmi, an exceptional frontend developer with
+        two years of experience. I love using technology to turn creative ideas
+        into captivating digital experiences. I'm always on the lookout for
+        exciting projects that challenge my skills. When I'm not coding, I enjoy
+        listening to music, watching movies, spending time with loved ones,
+        hanging out with friends, and exploring the internet for inspiration.
+        Thanks for getting to know me, and I can't wait to connect with you
+        soon!
       </Text>
     </Flex>
   );
