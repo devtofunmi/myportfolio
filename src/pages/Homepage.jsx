@@ -13,6 +13,7 @@ import jay from "../assets/jay.png";
 import Project from "../component/Project";
 import TechStack from "../component/TechStack";
 import About from "../component/About";
+import Experience from "../component/Experience";
 const Homepage = () => {
   return (
     <>
@@ -80,6 +81,9 @@ const Homepage = () => {
         </Box>
         <Box>
           <Project />
+        </Box>
+        <Box>
+          <Experience />
         </Box>
         <Box mt={"30px"}>
           <Flex>
