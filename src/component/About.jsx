@@ -11,7 +11,7 @@ const About = () => {
       mt={20}
       pb={"10px"}
     >
-      <Flex fontSize={40} fontWeight={500}>
+      <Flex fontSize={35} fontWeight={500}>
         About Me 👨‍💻
       </Flex>
       <Text fontSize={"19px"} mt={"20px"}>

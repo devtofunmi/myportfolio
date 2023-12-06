@@ -16,7 +16,7 @@ const Project = () => {
         pb={"10px"}
       >
         <Flex>
-          <Flex fontSize={["30px", "40px"]} fontWeight={500}>
+          <Flex fontSize={["30px", "35px"]} fontWeight={500}>
             Projects I've built
             <Img
               width={"50px"}

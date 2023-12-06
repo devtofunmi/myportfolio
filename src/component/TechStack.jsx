@@ -28,7 +28,7 @@ const TechStack = () => {
         </Box> */}
 
         <Box mt={"50px"}>
-          <Flex fontSize={40} fontWeight={500}>
+          <Flex fontSize={35} fontWeight={500}>
             Tech Stack
             <Img
               width={"50px"}
