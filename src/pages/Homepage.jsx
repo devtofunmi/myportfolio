@@ -77,14 +77,15 @@ const Homepage = () => {
           <About />
         </Box>
         <Box>
+          <Experience />
+        </Box>
+        <Box>
           <TechStack />
         </Box>
         <Box>
           <Project />
         </Box>
-        <Box>
-          <Experience />
-        </Box>
+
         <Box mt={"30px"}>
           <Flex>
             <Text fontSize={25} fontWeight={500}>
