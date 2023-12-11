@@ -80,10 +80,14 @@ const Experience = () => {
           >
             <Box>
               <Flex direction={"column"}>
-                <Flex alignItems={"center"}>
+                <Flex
+                  alignItems={"center"}
+                  justify={"space-between"}
+                  fontSize={"18px"}
+                >
                   <Text>{name}</Text>
                   <a target={"_blank"} href={link}>
-                    <BsLink45Deg />
+                    <BsLink45Deg fontSize={"18px"} />
                   </a>
                 </Flex>
                 <Text fontSize={"18px"} my={"20px"}>
