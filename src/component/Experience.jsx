@@ -1,5 +1,7 @@
 import React from "react";
 import { Box, Flex, Img, Center, Text} from "@chakra-ui/react";
+import { BsLink45Deg } from "react-icons/bs";
+
 const Experience = () => {
 
     const theData = [
