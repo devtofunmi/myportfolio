@@ -7,14 +7,19 @@ import {
   Center,
   Code,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import jay from "../assets/jay.png";
 import Project from "../component/Project";
 import TechStack from "../component/TechStack";
 import About from "../component/About";
 import Experience from "../component/Experience";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Homepage = () => {
+     useEffect(() => {
+       AOS.init({ duration: 1000 });
+     }, []);
   return (
     <>
       {/* <Center>
@@ -33,30 +38,36 @@ const Homepage = () => {
           flexDirection={["column", "row"]}
           alignItems={["left", "center"]}
         >
-          <Box>
-            <Img w={["190px", "350px"]} src={jay} />
-          </Box>
-          <Box>
-            <Flex mt={"20px"}>
-              <Text fontSize={40} fontWeight={600}>
-                Tofunmi
-              </Text>
-              <Img
-                width={"50px"}
-                src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
-              />
-            </Flex>
+          <div data-aos="fade-right">
+            <Box>
+              <Img w={["190px", "350px"]} src={jay} />
+            </Box>
+          </div>
 
-            <Text mt={5} textColor="#81AFDD">
-              Frontend Developer 💨
-            </Text>
-            <Text mt={5} fontSize={"19px"}>
-              {/* I'm a frontend developer,my expertise is in the area of responsive
+          <Box>
+            <div data-aos="fade-up">
+              <Flex mt={"20px"}>
+                <Text fontSize={40} fontWeight={600} data-aos="fade-up">
+                  Tofunmi
+                </Text>
+                <Img
+                  width={"50px"}
+                  src="https://media.giphy.com/media/LOnt6uqjD9OexmQJRB/giphy.gif"
+                />
+              </Flex>
+            </div>
+            <div data-aos="fade-left">
+              <Text mt={5} textColor="#81AFDD">
+                Frontend Developer 💨
+              </Text>
+              <Text mt={5} fontSize={"19px"}>
+                {/* I'm a frontend developer,my expertise is in the area of responsive
               design,i strive to make the web a beautiful place with every line
               of code. */}
-              Perpetually evolving my skills and embracing the latest
-              technologies and industry standards.
-            </Text>
+                Perpetually evolving my skills and embracing the latest
+                technologies and industry standards.
+              </Text>
+            </div>
           </Box>
         </Flex>
         {/* <Box mt={"70px"} textAlign={"left"}>

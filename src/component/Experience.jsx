@@ -85,7 +85,9 @@ const Experience = () => {
                   justify={"space-between"}
                   fontSize={"18px"}
                 >
-                  <Text>{name}</Text>
+                  <Text fontSize={["22px", "30px"]} fontWeight={600}>
+                    {name}
+                  </Text>
                   <a target={"_blank"} href={link}>
                     <BsLink45Deg fontSize={"18px"} />
                   </a>
