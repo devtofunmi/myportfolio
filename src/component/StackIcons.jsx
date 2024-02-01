@@ -16,6 +16,7 @@ import {
 import { TbBrandNextjs } from "react-icons/tb";
 import { RiGithubLine } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
 
 const StackIcons = [
   {
@@ -100,6 +101,10 @@ const StackIcons = [
   {
     name: "Tailwind CSS",
     icon: <SiTailwindcss />,
+  },
+   {
+    name: "Typescript",
+    icon: <TbBrandTypescript />,
   },
 ];
 
