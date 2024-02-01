@@ -10,13 +10,13 @@ import {
   SiNpm,
   SiReact,
   SiSass,
+  SiTypescript,
   SiVisualstudio,
   SiYarn,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { RiGithubLine } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
-import { TbBrandTypescript } from "react-icons/tb";
 
 const StackIcons = [
   {
@@ -99,12 +99,14 @@ const StackIcons = [
   //   ),
   // },
   {
+    id: 11,
     name: "Tailwind CSS",
     icon: <SiTailwindcss />,
   },
-   {
+  {
+    id: 12,
     name: "Typescript",
-    icon: <TbBrandTypescript />,
+    icon: <SiTypescript />,
   },
 ];
 
