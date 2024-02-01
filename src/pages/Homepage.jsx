@@ -17,9 +17,17 @@ import Experience from "../component/Experience";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const Homepage = () => {
-     useEffect(() => {
-       AOS.init({ duration: 1000 });
-     }, []);
+      useEffect(() => {
+        AOS.init({
+          duration: 1000,
+          easing: "ease-in-out",
+          once: false, // Set to false to allow animations on each scroll
+        });
+
+        return () => {
+          AOS.refresh();
+        };
+      }, []);
   return (
     <>
       {/* <Center>
