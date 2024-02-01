@@ -14,20 +14,8 @@ import Project from "../component/Project";
 import TechStack from "../component/TechStack";
 import About from "../component/About";
 import Experience from "../component/Experience";
-import AOS from "aos";
-import "aos/dist/aos.css";
-const Homepage = () => {
-      useEffect(() => {
-        AOS.init({
-          duration: 1000,
-          easing: "ease-in-out",
-          once: false, // Set to false to allow animations on each scroll
-        });
 
-        return () => {
-          AOS.refresh();
-        };
-      }, []);
+const Homepage = () => {
   return (
     <>
       {/* <Center>
@@ -46,16 +34,16 @@ const Homepage = () => {
           flexDirection={["column", "row"]}
           alignItems={["left", "center"]}
         >
-          <div data-aos="fade-right">
+          <div >
             <Box>
               <Img w={["190px", "350px"]} src={jay} />
             </Box>
           </div>
 
           <Box>
-            <div data-aos="fade-up">
+            <div>
               <Flex mt={"20px"}>
-                <Text fontSize={40} fontWeight={600} data-aos="fade-up">
+                <Text fontSize={40} fontWeight={600}>
                   Tofunmi
                 </Text>
                 <Img
@@ -64,7 +52,7 @@ const Homepage = () => {
                 />
               </Flex>
             </div>
-            <div data-aos="fade-left">
+            <div >
               <Text mt={5} textColor="#81AFDD">
                 Frontend Developer 💨
               </Text>
