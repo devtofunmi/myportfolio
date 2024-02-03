@@ -8,7 +8,7 @@ const theData = [
 
     link: "https://prettybio.netlify.app",
     gitlink: "https://github.com/devtofunmi/prettybio",
-    description: "Create stunning, personalized bio pages with ease.",
+    description: "Create Stunning, Personalized Bio Pages With Ease.",
     tools: ["Next", "Tailwind", "Supabase", "Cloudinary", "React Icon"],
   },
   {
@@ -17,7 +17,7 @@ const theData = [
 
     link: "https://madewithchakra.netlify.app",
     gitlink: "https://github.com/devtofunmi/madewithchakra",
-    description: "Showcase websites made with Chakra UI",
+    description: "Showcase Websites Made With Chakra UI",
     tools: ["React", "Chakra"],
   },
   // {
@@ -27,9 +27,18 @@ const theData = [
   //   description: "A live crytocurrency website",
   //   tools: ["React"],
   // },
+   {
+    id: 3,
+    logo: "",
+    name: "Nounite",
+    link: "https://nounite.netlify.app",
+    gitlink: "https://github.com/devtofunmi",
+    description: "Making Open And Distant Learning Easier ",
+    tools: ["Tailwind", "React", "Typescript"],
+  },
 
   {
-    id: 3,
+    id: 4,
     logo: "",
     name: "Coiinsearch",
     link: "https://coiinsearch.netlify.app",
@@ -39,12 +48,12 @@ const theData = [
   },
 
   {
-    id: 4,
+    id: 5,
     logo: "",
     name: "Gppt",
     link: "https://gppt.netlify.app",
     gitlink: "https://github.com/devtofunmi/gpt",
-    description: "GPT3 landing page replica",
+    description: "GPT3 Landing Page Replica",
     tools: ["React"],
   },
   // {
@@ -57,12 +66,12 @@ const theData = [
   // },
 
   {
-    id: 5,
+    id: 6,
     logo: "",
     name: "Stay Bnb",
     link: "https://bnnnb.netlify.app",
     gitlink: "https://github.com/devtofunmi",
-    description: "A replica of staybnb website",
+    description: "A Replica Of Staybnb Website",
     tools: ["Javascript", "Html", "Css"],
   },
   // {
