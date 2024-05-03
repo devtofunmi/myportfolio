@@ -30,14 +30,14 @@ const Homepage = () => {
       >
         <Flex
           mt={"50px"}
-          gap={"40px"}
+          // gap={"40px"}
           flexDirection={["column", "row"]}
           alignItems={["left", "center"]}
         >
           <div >
-            <Box>
+            {/* <Box>
               <Img w={["190px", "350px"]} src={jay} />
-            </Box>
+            </Box> */}
           </div>
 
           <Box>
